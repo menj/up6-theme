@@ -1,0 +1,38 @@
+/**
+ * Tag chip styles for core/post-terms.
+ *
+ * @package UP6_Suara_Semasa
+ */
+
+.up6-tag-chips .wp-block-post-terms__link,
+.up6-tag-chips a {
+	display: inline-flex;
+	align-items: center;
+	padding: 0.35rem 0.9rem;
+	border-radius: var(--up6-radius-pill, 9999px);
+	background: var(--up6-grad-tag, linear-gradient(135deg, #C4B5A5, #d4c8bb));
+	color: var(--wp--preset--color--primary-deep-blue);
+	font-size: var(--wp--preset--font-size--kicker-label);
+	font-weight: 600;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	transition: all var(--up6-ease, 180ms ease-in-out);
+	min-height: 2rem;
+}
+
+.up6-tag-chips .wp-block-post-terms__link:hover,
+.up6-tag-chips a:hover {
+	background: var(--up6-grad-deep, linear-gradient(135deg, #1B3C53, #2E5871, #4F6F86));
+	color: var(--wp--preset--color--surface-white);
+	transform: translateY(-1px);
+}
+
+.up6-tag-chips .wp-block-post-terms__link:focus-visible,
+.up6-tag-chips a:focus-visible {
+	outline: 2px solid var(--wp--preset--color--secondary-blue);
+	outline-offset: 2px;
+}
+
+.up6-tag-chips .wp-block-post-terms__separator {
+	display: none;
+}

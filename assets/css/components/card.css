@@ -1,0 +1,65 @@
+/**
+ * Card component styles — Standard, Accent, List variants.
+ * Applied via block style variations on core/group.
+ *
+ * @package UP6_Suara_Semasa
+ */
+
+/* ── Base Card ──────────────────────────────────────────────────── */
+.is-style-card-standard {
+	background: var(--wp--preset--color--surface-white);
+	border-radius: var(--up6-card-radius, 1rem);
+	padding: var(--up6-card-padding, 1.25rem);
+	box-shadow: var(--up6-card-shadow, 0 2px 8px rgba(27,60,83,0.07));
+	border: 1px solid rgba(79,111,134,0.07);
+	overflow: hidden;
+}
+
+/* ── Accent Card (gradient background) ──────────────────────────── */
+.is-style-card-accent {
+	background: var(--up6-grad-accent, linear-gradient(135deg, #2E5871 0%, #4F6F86 100%));
+	color: var(--wp--preset--color--text-on-dark);
+	border-radius: var(--up6-card-radius, 1rem);
+	padding: var(--up6-card-padding, 1.25rem);
+	box-shadow: 0 4px 16px rgba(27,60,83,0.15);
+	border: none;
+}
+.is-style-card-accent h2,
+.is-style-card-accent h3,
+.is-style-card-accent h4 {
+	color: var(--wp--preset--color--surface-white);
+}
+.is-style-card-accent a {
+	color: var(--wp--preset--color--text-on-dark);
+}
+.is-style-card-accent a:hover {
+	color: var(--wp--preset--color--surface-white);
+}
+
+/* ── List Card (compact, no fill) ───────────────────────────────── */
+.is-style-card-list {
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid rgba(79,111,134,0.06);
+	border-radius: 0;
+	padding: 1.25rem 0;
+}
+.is-style-card-list:last-child {
+	border-bottom: none;
+}
+
+/* ── Card Heading Divider ───────────────────────────────────────── */
+.up6-card-heading {
+	font-size: var(--wp--preset--font-size--kicker-label);
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	padding-bottom: 0.5rem;
+	margin-bottom: 0.75rem;
+	border-bottom: 2px solid currentColor;
+	opacity: 0.55;
+}
+.is-style-card-accent .up6-card-heading {
+	opacity: 0.45;
+	border-color: rgba(255,255,255,0.25);
+}

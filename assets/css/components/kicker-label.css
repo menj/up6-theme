@@ -1,0 +1,77 @@
+/**
+ * Kicker label + Dateline + Breaking/Live badge.
+ * Applied via block style variations on core/paragraph.
+ *
+ * @package UP6_Suara_Semasa
+ */
+
+/* ── Kicker Label (gradient pill) ───────────────────────────────── */
+.is-style-kicker {
+	display: inline-block;
+	font-size: var(--wp--preset--font-size--kicker-label) !important;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	color: var(--wp--preset--color--surface-white);
+	background: var(--up6-grad-accent, linear-gradient(135deg, #2E5871, #4F6F86));
+	padding: 0.2rem 0.65rem;
+	border-radius: var(--up6-radius-pill, 9999px);
+	line-height: 1.4;
+}
+
+/* Kicker on dark backgrounds (hero overlay, accent cards) */
+.up6-hero-overlay .is-style-kicker,
+.is-style-card-accent .is-style-kicker {
+	background: rgba(255,255,255,0.15);
+	color: var(--wp--preset--color--surface-white);
+}
+
+/* ── Dateline ───────────────────────────────────────────────────── */
+.is-style-dateline {
+	font-size: var(--wp--preset--font-size--metadata-text) !important;
+	font-weight: 500;
+	color: var(--wp--preset--color--tertiary-blue);
+}
+.is-style-dateline strong {
+	color: var(--wp--preset--color--primary-deep-blue);
+	font-weight: 600;
+}
+
+/* ── Breaking / Live Badge (red accent) ─────────────────────────── */
+.is-style-breaking {
+	display: inline-block;
+	font-size: var(--wp--preset--font-size--kicker-label) !important;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	color: var(--wp--preset--color--surface-white);
+	background: var(--up6-grad-red, linear-gradient(135deg, #C0392B, #d4453a));
+	padding: 0.2rem 0.65rem;
+	border-radius: var(--up6-radius-pill, 9999px);
+	line-height: 1.4;
+}
+
+/* Optional pulsing dot before breaking label */
+.is-style-breaking::before {
+	content: '';
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: var(--wp--preset--color--surface-white);
+	margin-right: 0.4rem;
+	vertical-align: middle;
+	animation: up6-pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes up6-pulse {
+	0%, 100% { opacity: 1; }
+	50%      { opacity: 0.3; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.is-style-breaking::before {
+		animation: none;
+		opacity: 1;
+	}
+}

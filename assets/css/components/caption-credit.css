@@ -1,0 +1,39 @@
+/**
+ * Caption and credit styles for core/image.
+ *
+ * @package UP6_Suara_Semasa
+ */
+
+/* Featured image rounded corners */
+.up6-featured-image img {
+	border-radius: var(--up6-radius-xl, 1.25rem);
+	aspect-ratio: 16 / 9;
+	object-fit: cover;
+	width: 100%;
+}
+
+/* Caption */
+.up6-featured-image figcaption,
+.up6-caption-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	margin-top: 0.75rem;
+	padding-inline: 0.25rem;
+	font-size: var(--wp--preset--font-size--metadata-text);
+}
+
+.up6-caption-text {
+	font-style: italic;
+	color: var(--wp--preset--color--tertiary-blue);
+}
+
+.up6-caption-credit {
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	font-weight: 600;
+	font-size: var(--wp--preset--font-size--kicker-label);
+	color: var(--wp--preset--color--tertiary-blue);
+}

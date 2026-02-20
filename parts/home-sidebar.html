@@ -1,0 +1,65 @@
+<!-- wp:group {"tagName":"aside","className":"up6-home-sidebar","layout":{"type":"flex","orientation":"vertical"},"style":{"spacing":{"blockGap":"1.25rem"}},"aria-label":"Sidebar"} -->
+<aside class="wp-block-group up6-home-sidebar" aria-label="Sidebar">
+
+	<!-- Featured Stories Card -->
+	<!-- wp:group {"className":"is-style-card-standard"} -->
+	<div class="wp-block-group is-style-card-standard">
+		<!-- wp:paragraph {"className":"up6-card-heading"} -->
+		<p class="up6-card-heading">Featured</p>
+		<!-- /wp:paragraph -->
+
+		<!-- wp:query {"queryId":10,"query":{"perPage":3,"offset":0,"postType":"post","order":"desc","orderBy":"date","sticky":"exclude","inherit":false},"className":"up6-featured-stories"} -->
+		<div class="wp-block-query up6-featured-stories">
+			<!-- wp:post-template {"layout":{"type":"default"}} -->
+
+				<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"},"style":{"spacing":{"blockGap":"0.75rem"}}} -->
+				<div class="wp-block-group">
+					<!-- wp:post-featured-image {"isLink":true,"width":"4.5rem","height":"4.5rem","style":{"border":{"radius":"0.75rem"}},"className":"up6-thumb-square"} /-->
+
+					<!-- wp:group {"layout":{"type":"default"}} -->
+					<div class="wp-block-group">
+						<!-- wp:post-terms {"term":"category","fontSize":"kicker-label","style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.06em","fontWeight":"600"}},"textColor":"secondary-blue"} /-->
+						<!-- wp:post-title {"level":3,"isLink":true,"fontSize":"metadata-text","style":{"typography":{"fontWeight":"600","lineHeight":"1.35"}},"textColor":"primary-deep-blue"} /-->
+						<!-- wp:post-date {"fontSize":"kicker-label","textColor":"tertiary-blue"} /-->
+					</div>
+					<!-- /wp:group -->
+				</div>
+				<!-- /wp:group -->
+
+			<!-- /wp:post-template -->
+		</div>
+		<!-- /wp:query -->
+	</div>
+	<!-- /wp:group -->
+
+	<!-- Trending Topics Card -->
+	<!-- wp:group {"className":"is-style-card-accent"} -->
+	<div class="wp-block-group is-style-card-accent">
+		<!-- wp:paragraph {"className":"up6-card-heading"} -->
+		<p class="up6-card-heading">Trending</p>
+		<!-- /wp:paragraph -->
+
+		<!-- wp:pattern {"slug":"up6-suara-semasa/trending-topics"} /-->
+	</div>
+	<!-- /wp:group -->
+
+	<!-- Social Card -->
+	<!-- wp:group {"className":"is-style-card-accent"} -->
+	<div class="wp-block-group is-style-card-accent">
+		<!-- wp:paragraph {"className":"up6-card-heading"} -->
+		<p class="up6-card-heading">Follow Us</p>
+		<!-- /wp:paragraph -->
+
+		<!-- wp:social-links {"iconColor":"text-on-dark","iconColorValue":"#F0F0F0","size":"has-normal-icon-size","className":"up6-social-links","layout":{"type":"flex","justifyContent":"left"},"style":{"spacing":{"blockGap":{"left":"0.75rem"}}}} -->
+		<ul class="wp-block-social-links has-normal-icon-size has-icon-color up6-social-links">
+			<!-- wp:social-link {"url":"#","service":"facebook"} /-->
+			<!-- wp:social-link {"url":"#","service":"x"} /-->
+			<!-- wp:social-link {"url":"#","service":"telegram"} /-->
+			<!-- wp:social-link {"url":"#","service":"feed"} /-->
+		</ul>
+		<!-- /wp:social-links -->
+	</div>
+	<!-- /wp:group -->
+
+</aside>
+<!-- /wp:group -->

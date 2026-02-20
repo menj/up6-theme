@@ -1,0 +1,339 @@
+/**
+ * UP6 Suara Semasa — Global Styles
+ *
+ * Supplements theme.json tokens with properties that cannot be
+ * expressed in the JSON schema (gradients on pseudo-elements,
+ * custom radius scale, transitions, etc.).
+ *
+ * @package UP6_Suara_Semasa
+ */
+
+/* ── Custom Properties (derived from theme.json tokens) ───────── */
+:root {
+	/* Gradients */
+	--up6-grad-deep:     linear-gradient(135deg, var(--wp--preset--color--primary-deep-blue) 0%, var(--wp--preset--color--secondary-blue) 50%, var(--wp--preset--color--tertiary-blue) 100%);
+	--up6-grad-header:   linear-gradient(160deg, #0F2B3E 0%, var(--wp--preset--color--primary-deep-blue) 40%, var(--wp--preset--color--secondary-blue) 100%);
+	--up6-grad-accent:   linear-gradient(135deg, var(--wp--preset--color--secondary-blue) 0%, var(--wp--preset--color--tertiary-blue) 100%);
+	--up6-grad-warm:     linear-gradient(135deg, var(--wp--preset--color--neutral-beige) 0%, #d4c8bb 50%, #e0d6cb 100%);
+	--up6-grad-red:      linear-gradient(135deg, var(--wp--preset--color--accent-red) 0%, #d4453a 100%);
+	--up6-grad-tag:      linear-gradient(135deg, var(--wp--preset--color--neutral-beige) 0%, #d4c8bb 100%);
+	--up6-grad-footer:   linear-gradient(160deg, #0F2B3E 0%, var(--wp--preset--color--primary-deep-blue) 60%, #1e4460 100%);
+
+	/* Radius scale */
+	--up6-radius-sm:   var(--wp--custom--radius--sm, 0.5rem);
+	--up6-radius-md:   var(--wp--custom--radius--md, 0.75rem);
+	--up6-radius-lg:   var(--wp--custom--radius--lg, 1rem);
+	--up6-radius-xl:   var(--wp--custom--radius--xl, 1.25rem);
+	--up6-radius-pill:  9999px;
+
+	/* Card tokens */
+	--up6-card-radius:   var(--wp--custom--card--radius, 1rem);
+	--up6-card-padding:  var(--wp--custom--card--padding, 1.25rem);
+	--up6-card-shadow:   var(--wp--custom--card--shadow, 0 2px 8px rgba(27,60,83,0.07), 0 0.5px 2px rgba(27,60,83,0.04));
+	--up6-card-shadow-hover: 0 8px 24px rgba(27,60,83,0.12), 0 2px 6px rgba(27,60,83,0.06);
+
+	/* Transition */
+	--up6-ease: var(--wp--custom--transition--default, 180ms ease-in-out);
+}
+
+/* ── Skip Link ──────────────────────────────────────────────────── */
+.skip-link {
+	position: absolute;
+	left: -9999px;
+	top: 0;
+	z-index: 9999;
+	padding: 0.75rem 1.25rem;
+	background: var(--up6-grad-deep);
+	color: var(--wp--preset--color--surface-white);
+	font-weight: 600;
+	font-size: var(--wp--preset--font-size--metadata-text);
+	text-decoration: none;
+	border-radius: 0 0 var(--up6-radius-md) var(--up6-radius-md);
+}
+.skip-link:focus {
+	left: 1.25rem;
+	top: 0;
+}
+
+/* ── Focus Ring (global fallback) ───────────────────────────────── */
+*:focus-visible {
+	outline: 2px solid var(--wp--preset--color--secondary-blue);
+	outline-offset: 2px;
+	border-radius: var(--up6-radius-sm);
+}
+
+/* ── Header ─────────────────────────────────────────────────────── */
+.wp-block-template-part.site-header-part,
+.up6-site-header {
+	background: var(--up6-grad-header);
+}
+
+/* Search bar pill shape */
+.wp-block-template-part.site-header-part .wp-block-search,
+.up6-site-header .wp-block-search {
+	border-radius: var(--up6-radius-pill);
+	overflow: hidden;
+}
+
+/* Nav underline hover effect */
+.wp-block-navigation .wp-block-navigation-item__content {
+	position: relative;
+	padding-bottom: 0.25rem;
+}
+.wp-block-navigation .wp-block-navigation-item__content::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background: var(--up6-grad-warm);
+	border-radius: var(--up6-radius-pill);
+	transition: width var(--up6-ease);
+}
+.wp-block-navigation .wp-block-navigation-item__content:hover::after,
+.wp-block-navigation .wp-block-navigation-item__content:focus-visible::after {
+	width: 100%;
+}
+
+/* ── Footer ─────────────────────────────────────────────────────── */
+.wp-block-template-part.site-footer-part,
+.up6-site-footer {
+	background: var(--up6-grad-footer);
+}
+.up6-footer-accent-bar {
+	height: 3px;
+	background: linear-gradient(90deg,
+		var(--wp--preset--color--secondary-blue),
+		var(--wp--preset--color--accent-red),
+		var(--wp--preset--color--neutral-beige),
+		var(--wp--preset--color--accent-red),
+		var(--wp--preset--color--secondary-blue)
+	);
+	border-radius: var(--up6-radius-pill);
+}
+
+/* ── Section Divider ────────────────────────────────────────────── */
+.up6-section-divider,
+hr.wp-block-separator.up6-section-divider {
+	border: none;
+	height: 1px;
+	background: linear-gradient(90deg, transparent, rgba(79,111,134,0.15), transparent);
+	margin-block: 2rem;
+}
+
+/* ── Section Heading Underline ──────────────────────────────────── */
+.up6-section-heading {
+	position: relative;
+	display: inline-block;
+	padding-bottom: 0.5rem;
+}
+.up6-section-heading::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background: var(--up6-grad-deep);
+	border-radius: var(--up6-radius-pill);
+}
+
+/* ── Hero Card ──────────────────────────────────────────────────── */
+.up6-hero-card {
+	position: relative;
+	border-radius: var(--up6-radius-xl);
+	overflow: hidden;
+	box-shadow: var(--up6-card-shadow);
+}
+.up6-hero-card .wp-block-post-featured-image img {
+	aspect-ratio: 16 / 9;
+	object-fit: cover;
+	width: 100%;
+	filter: brightness(0.55);
+}
+.up6-hero-overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 3rem 2rem 2rem;
+	background: linear-gradient(to top,
+		rgba(15,43,62,0.97) 0%,
+		rgba(27,60,83,0.6) 50%,
+		transparent 100%
+	);
+}
+
+/* ── Post Card ──────────────────────────────────────────────────── */
+.up6-post-card {
+	background: var(--wp--preset--color--surface-white);
+	border-radius: var(--up6-card-radius);
+	overflow: hidden;
+	box-shadow: var(--up6-card-shadow);
+	border: 1px solid rgba(79,111,134,0.06);
+	transition: box-shadow var(--up6-ease), transform var(--up6-ease);
+}
+.up6-post-card:hover {
+	box-shadow: var(--up6-card-shadow-hover);
+	transform: translateY(-3px);
+}
+.up6-post-card .wp-block-post-featured-image img {
+	aspect-ratio: 16 / 9;
+	object-fit: cover;
+	width: 100%;
+}
+
+/* ── Sidebar Cards ──────────────────────────────────────────────── */
+.up6-sidebar-card {
+	border-radius: var(--up6-card-radius);
+	padding: var(--up6-card-padding);
+	box-shadow: var(--up6-card-shadow);
+}
+.up6-sidebar-card--accent {
+	background: var(--up6-grad-accent);
+	color: var(--wp--preset--color--text-on-dark);
+	border: none;
+}
+
+/* ── Thumbnails ─────────────────────────────────────────────────── */
+.up6-thumb-square {
+	border-radius: var(--up6-radius-md);
+	aspect-ratio: 1;
+	object-fit: cover;
+}
+.up6-thumb-wide {
+	border-radius: var(--up6-radius-md);
+	aspect-ratio: 16 / 9;
+	object-fit: cover;
+}
+
+/* ── Pagination ─────────────────────────────────────────────────── */
+.wp-block-query-pagination {
+	gap: 0.5rem;
+}
+.wp-block-query-pagination .page-numbers,
+.wp-block-query-pagination-numbers a,
+.wp-block-query-pagination-numbers span {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 2.5rem;
+	height: 2.5rem;
+	padding: 0.25rem 0.5rem;
+	border-radius: var(--up6-radius-md);
+	font-size: var(--wp--preset--font-size--metadata-text);
+	font-weight: 600;
+	border: 1px solid rgba(79,111,134,0.12);
+	transition: all var(--up6-ease);
+}
+.wp-block-query-pagination-numbers a:hover {
+	background: var(--up6-grad-deep);
+	color: var(--wp--preset--color--surface-white);
+	border-color: transparent;
+	transform: translateY(-1px);
+}
+.wp-block-query-pagination-numbers .current {
+	background: var(--up6-grad-deep);
+	color: var(--wp--preset--color--surface-white);
+	border-color: transparent;
+}
+
+/* ── Responsive Grid ────────────────────────────────────────────── */
+.up6-home-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 2rem;
+}
+@media (min-width: 48rem) {
+	.up6-home-grid {
+		grid-template-columns: 1fr 22rem;
+	}
+}
+@media (min-width: 64rem) {
+	.up6-home-grid {
+		grid-template-columns: 1fr 24rem;
+	}
+}
+
+.up6-section-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1.25rem;
+}
+@media (min-width: 48rem) {
+	.up6-section-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media (min-width: 64rem) {
+	.up6-section-grid {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+/* ── Red Accent Touches ─────────────────────────────────────────── */
+
+/* Dot before featured story kicker text */
+.up6-featured-stories .wp-block-post-terms::before {
+	content: '';
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: var(--wp--preset--color--accent-red);
+	margin-right: 0.35rem;
+	vertical-align: middle;
+	flex-shrink: 0;
+}
+
+/* Active nav link uses red underline */
+.wp-block-navigation .wp-block-navigation-item.current-menu-item .wp-block-navigation-item__content::after {
+	width: 100%;
+	background: var(--up6-grad-red);
+}
+
+/* Section heading red leading dot */
+.up6-section-heading::before {
+	content: '';
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: var(--wp--preset--color--accent-red);
+	margin-right: 0.5rem;
+	vertical-align: middle;
+}
+
+/* Trending number highlight — first item uses red */
+.up6-trending-list li:first-child::before {
+	color: var(--wp--preset--color--accent-red);
+	opacity: 0.8;
+}
+
+/* Tag chip hover — subtle red variant for first tag */
+.up6-tag-chips .wp-block-post-terms__link:first-child:hover,
+.up6-tag-chips a:first-child:hover {
+	background: var(--up6-grad-red);
+}
+
+/* Article abstract left border includes red stop */
+.up6-article-abstract {
+	background: var(--up6-grad-warm);
+	border-radius: var(--up6-radius-lg);
+	border-image: linear-gradient(
+		to bottom,
+		var(--wp--preset--color--accent-red),
+		var(--wp--preset--color--primary-deep-blue)
+	) 1;
+}
+
+/* ── Reduced Motion ─────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		transition-duration: 0.01ms !important;
+		animation-duration: 0.01ms !important;
+	}
+}

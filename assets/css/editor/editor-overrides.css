@@ -1,0 +1,56 @@
+/**
+ * Editor parity overrides.
+ * Ensures block editor renders match front-end output.
+ *
+ * @package UP6_Suara_Semasa
+ */
+
+/* Match card radius in editor */
+.editor-styles-wrapper .is-style-card-standard,
+.editor-styles-wrapper .is-style-card-accent {
+	border-radius: var(--wp--custom--card--radius, 1rem);
+}
+
+/* Kicker pill in editor */
+.editor-styles-wrapper .is-style-kicker {
+	display: inline-block;
+	font-size: var(--wp--preset--font-size--kicker-label) !important;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	background: linear-gradient(135deg, #2E5871, #4F6F86);
+	color: #FFFFFF;
+	padding: 0.2rem 0.65rem;
+	border-radius: 9999px;
+}
+
+/* Breaking badge in editor */
+.editor-styles-wrapper .is-style-breaking {
+	display: inline-block;
+	font-size: var(--wp--preset--font-size--kicker-label) !important;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	background: linear-gradient(135deg, #C0392B, #d4453a);
+	color: #FFFFFF;
+	padding: 0.2rem 0.65rem;
+	border-radius: 9999px;
+}
+
+/* Dateline in editor */
+.editor-styles-wrapper .is-style-dateline {
+	font-size: var(--wp--preset--font-size--metadata-text) !important;
+	font-weight: 500;
+	color: #4F6F86;
+}
+
+/* Featured image rounding in editor */
+.editor-styles-wrapper .up6-featured-image img {
+	border-radius: 1.25rem;
+}
+
+/* Ensure article body uses serif in editor */
+.editor-styles-wrapper .up6-article-body {
+	font-family: var(--wp--preset--font-family--system-serif);
+	line-height: 1.78;
+}
