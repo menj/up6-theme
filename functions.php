@@ -116,15 +116,17 @@ add_action( 'init', 'up6_register_block_styles' );
  * 5. Navigation A11y Script (conditional)
  * ------------------------------------------------------------- */
 function up6_navigation_a11y_script() {
-	if ( has_block( 'core/navigation' ) ) {
-		wp_enqueue_script(
-			'up6-navigation-a11y',
-			get_stylesheet_directory_uri() . '/assets/js/navigation-a11y.js',
-			[],
-			UP6_VERSION,
-			[ 'strategy' => 'defer', 'in_footer' => true ]
-		);
+	if ( is_admin() ) {
+		return;
 	}
+
+	wp_enqueue_script(
+		'up6-navigation-a11y',
+		get_stylesheet_directory_uri() . '/assets/js/navigation-a11y.js',
+		[],
+		UP6_VERSION,
+		[ 'strategy' => 'defer', 'in_footer' => true ]
+	);
 }
 add_action( 'wp_enqueue_scripts', 'up6_navigation_a11y_script' );
 

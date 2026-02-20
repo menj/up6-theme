@@ -26,17 +26,30 @@
 	 * Initialise once the responsive navigation block is in the DOM.
 	 */
 	function init() {
-		const navBlock = document.querySelector(
+		const navBlocks = document.querySelectorAll(
 			'.wp-block-navigation__responsive-container'
 		);
-		if ( ! navBlock ) {
+
+		if ( navBlocks.length === 0 ) {
 			return;
 		}
 
-		const toggleOpen = document.querySelector(
+		navBlocks.forEach( function ( navBlock ) {
+			setupNavBlock( navBlock );
+		} );
+	}
+
+	/**
+	 * Bind a11y handlers to a single responsive nav block.
+	 *
+	 * @param {HTMLElement} navBlock Responsive navigation container.
+	 */
+	function setupNavBlock( navBlock ) {
+		const navParent = navBlock.closest( '.wp-block-navigation' ) || document;
+		const toggleOpen = navParent.querySelector(
 			'.wp-block-navigation__responsive-container-open'
 		);
-		const toggleClose = document.querySelector(
+		const toggleClose = navBlock.querySelector(
 			'.wp-block-navigation__responsive-container-close'
 		);
 
@@ -44,27 +57,38 @@
 			return;
 		}
 
-		/** Observe the `is-menu-open` class on the container. */
+		let removeTrap = null;
+
 		const observer = new MutationObserver( function ( mutations ) {
-			mutations.forEach( function ( m ) {
-				if ( m.type !== 'attributes' || m.attributeName !== 'class' ) {
+			mutations.forEach( function ( mutation ) {
+				if (
+					mutation.type !== 'attributes' ||
+					mutation.attributeName !== 'class'
+				) {
 					return;
 				}
+
 				const isOpen = navBlock.classList.contains( 'is-menu-open' );
 				if ( isOpen ) {
-					onOpen( navBlock, toggleClose );
+					if ( removeTrap ) {
+						removeTrap();
+					}
+					removeTrap = onOpen( navBlock, toggleClose );
+				} else if ( removeTrap ) {
+					removeTrap();
+					removeTrap = null;
 				}
 			} );
 		} );
 
 		observer.observe( navBlock, { attributes: true } );
 
-		/** Close overlay on Escape. */
-		document.addEventListener( 'keydown', function ( e ) {
-			if (
-				e.key === 'Escape' &&
-				navBlock.classList.contains( 'is-menu-open' )
-			) {
+		document.addEventListener( 'keydown', function ( event ) {
+			if ( event.key !== 'Escape' ) {
+				return;
+			}
+
+			if ( navBlock.classList.contains( 'is-menu-open' ) ) {
 				toggleClose.click();
 				toggleOpen.focus();
 			}
@@ -76,22 +100,19 @@
 	 *
 	 * @param {HTMLElement} container - The overlay container.
 	 * @param {HTMLElement} closeBtn  - The close button.
+	 * @return {Function} Cleanup callback.
 	 */
 	function onOpen( container, closeBtn ) {
-		// Move focus to close button.
 		requestAnimationFrame( function () {
 			closeBtn.focus();
 		} );
 
-		// Tab trap.
-		container.addEventListener( 'keydown', function trap( e ) {
-			if ( e.key !== 'Tab' ) {
+		const trap = function ( event ) {
+			if ( event.key !== 'Tab' ) {
 				return;
 			}
 
-			const focusable = Array.from(
-				container.querySelectorAll( FOCUSABLE )
-			);
+			const focusable = Array.from( container.querySelectorAll( FOCUSABLE ) );
 			if ( focusable.length === 0 ) {
 				return;
 			}
@@ -99,23 +120,23 @@
 			const first = focusable[ 0 ];
 			const last = focusable[ focusable.length - 1 ];
 
-			if ( e.shiftKey ) {
-				if ( document.activeElement === first ) {
-					e.preventDefault();
-					last.focus();
-				}
-			} else {
-				if ( document.activeElement === last ) {
-					e.preventDefault();
-					first.focus();
-				}
+			if ( event.shiftKey && document.activeElement === first ) {
+				event.preventDefault();
+				last.focus();
+				return;
 			}
 
-			// Clean up when overlay is closed.
-			if ( ! container.classList.contains( 'is-menu-open' ) ) {
-				container.removeEventListener( 'keydown', trap );
+			if ( ! event.shiftKey && document.activeElement === last ) {
+				event.preventDefault();
+				first.focus();
 			}
-		} );
+		};
+
+		container.addEventListener( 'keydown', trap );
+
+		return function () {
+			container.removeEventListener( 'keydown', trap );
+		};
 	}
 
 	/** Boot. */
