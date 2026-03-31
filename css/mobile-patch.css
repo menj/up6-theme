@@ -1,0 +1,363 @@
+/**
+ * UP6 Mobile-First Patch
+ *
+ * Supplementary stylesheet — loaded after style.css.
+ * Contains only scoped mobile/responsive fixes identified
+ * in the v2.5.115 mobile-first audit.
+ *
+ * Strategy: additive overrides only — no deletions, no rewrites.
+ * Every rule is self-contained and removable.
+ *
+ * @package UP6
+ * @since   2.6
+ */
+
+/* =============================================================
+   1. CONTENT OVERFLOW PROTECTION
+   Prevents long URLs, unbroken strings, and code blocks from
+   causing horizontal scroll on narrow viewports.
+   Risk: LOW — purely additive.
+   ============================================================= */
+
+.entry-content,
+.comment-content,
+.policy-content,
+.faq-answer-inner,
+.footer-description {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+/* Tables inside content: horizontal scroll wrapper */
+.entry-content table,
+.policy-content table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+}
+
+/* Pre/code blocks: scroll rather than overflow */
+.entry-content pre,
+.policy-content pre {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+}
+
+/* Embedded iframes (videos, maps): respect container width */
+.entry-content iframe,
+.policy-content iframe {
+  max-width: 100%;
+}
+
+
+/* =============================================================
+   2. COMMENT NESTING OVERFLOW FIX
+   At 320px, 3+ levels of padding-left: 2rem causes overflow.
+   Reduce nesting indent on small screens.
+   Risk: LOW — scoped to narrow mobile only.
+   ============================================================= */
+
+@media (max-width: 540px) {
+  .comment-list .children {
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .comment-list .children {
+    padding-left: 0.625rem;
+  }
+}
+
+
+/* =============================================================
+   3. MOBILE FONT SIZE FLOOR
+   Bumps the smallest font sizes to a readable minimum on
+   mobile. Does not affect desktop.
+   Risk: LOW — only changes micro-text below 540px.
+   ============================================================= */
+
+@media (max-width: 540px) {
+
+  /* 0.575rem (9.2px) → 0.65rem (10.4px) */
+  .featured-panel-cat,
+  .featured-panel-cat-item {
+    font-size: 0.65rem;
+  }
+
+  /* 0.6rem (9.6px) → 0.675rem (10.8px) */
+  .card-category,
+  .card-date,
+  .card-meta .card-kicker-date,
+  .featured-panel-date,
+  .most-viewed-cat,
+  .most-viewed-date,
+  .policy-header-label,
+  .widget_recent_entries .post-date,
+  .footer-legal-text {
+    font-size: 0.675rem;
+  }
+
+  /* Footer links: 0.625rem → 0.7rem */
+  .footer-utility-nav a,
+  .footer-utility-nav li a,
+  .footer-copyright,
+  .mobile-nav-utility a {
+    font-size: 0.7rem;
+  }
+
+  /* Nav date sep (0.4rem / 6.4px) — hidden on mobile via existing
+     rule, but ensure floor in case it surfaces */
+  .nav-date-sep {
+    font-size: 0.5rem;
+  }
+
+  /* Card kicker sep (0.55rem) */
+  .card-meta .card-kicker-sep {
+    font-size: 0.625rem;
+  }
+}
+
+
+/* =============================================================
+   4. TOUCH TARGET IMPROVEMENTS
+   Ensure interactive elements meet 44px minimum touch target.
+   Risk: LOW — adds padding/min-height, does not change layout.
+   ============================================================= */
+
+@media (max-width: 768px) {
+
+  /* Mobile nav drawer links: increase vertical padding */
+  .mobile-nav-list li a {
+    padding: 0.75rem 0.5rem;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+
+  /* Mobile utility nav links: add vertical padding */
+  .mobile-nav-utility a {
+    padding: 0.5rem 0.875rem 0.5rem 0;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  /* Footer utility nav links */
+  .footer-utility-nav a,
+  .footer-utility-nav li a {
+    padding: 0.5rem 0.875rem 0.5rem 0;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  /* Footer bar: accommodate taller links */
+  .footer-bar-inner {
+    min-height: auto;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  /* Comment reply link */
+  .comment-body .reply a {
+    display: inline-block;
+    padding: 0.375rem 0;
+    min-height: 44px;
+    line-height: 44px;
+  }
+
+  /* Entry tags: ensure tappable */
+  .entry-tags a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+  }
+
+  /* Sidebar category list items */
+  .sidebar-categories-list li a {
+    min-height: 44px;
+  }
+
+  /* Load More button */
+  .up6-load-more-btn {
+    min-height: 48px;
+    padding: 0.875rem 2.5rem;
+  }
+
+  /* Error 404 / search empty buttons */
+  .error-404-btn {
+    min-height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Vote buttons: ensure tappable */
+  .vote-btn {
+    min-height: 44px;
+    padding: 0.5rem 1rem;
+  }
+}
+
+
+/* =============================================================
+   5. ENTRY CONTENT MOBILE PARITY
+   The policy-content rules at 768px reduce font and left-align
+   text, but .entry-content (single posts) only gets left-align.
+   Add matching font reduction for single post body.
+   Risk: LOW — scoped to mobile only.
+   ============================================================= */
+
+@media (max-width: 480px) {
+  .entry-content {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+}
+
+
+/* =============================================================
+   6. --up6-pad PROGRESSIVE REDUCTION
+   Currently only reduces at 480px. Add a step at 540px for
+   smoother transition.
+   Risk: LOW — slightly tightens padding in 480-540px range.
+   ============================================================= */
+
+@media (max-width: 540px) {
+  :root {
+    --up6-pad: 1.25rem;
+  }
+}
+/* The existing 480px rule in style.css (--up6-pad: 1rem) will
+   override this further. Cascade preserved. */
+
+
+/* =============================================================
+   7. MASONRY FLOAT CLEARFIX
+   The masonry-active layout uses floats. Ensure the container
+   clears its floated children to prevent collapse.
+   Risk: LOW — only applies when masonry JS is active.
+   ============================================================= */
+
+.related-grid.masonry-active::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+/* =============================================================
+   8. FOCUS VISIBLE STATES
+   Ensure all interactive elements have visible focus indicators
+   for keyboard and assistive technology users.
+   Risk: LOW — purely additive.
+   ============================================================= */
+
+/* Global focus ring for keyboard navigation */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--up6-red);
+  outline-offset: 2px;
+}
+
+/* Remove outline for mouse clicks (focus without focus-visible) */
+a:focus:not(:focus-visible),
+button:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Header icon buttons: visible focus on dark background */
+.header-icon-btn:focus-visible {
+  outline-color: var(--up6-white);
+}
+
+/* Mobile nav links: visible focus on dark background */
+.mobile-nav-list li a:focus-visible {
+  outline-color: var(--up6-beige);
+  outline-offset: -2px;
+}
+
+/* FAQ summary: focus ring */
+.faq-question:focus-visible {
+  outline: 2px solid var(--up6-red);
+  outline-offset: -2px;
+  border-radius: 0.25rem;
+}
+
+
+/* =============================================================
+   9. HERO CARD MOBILE REFINEMENT
+   Ensure hero title doesn't clip on very narrow screens.
+   Risk: LOW — tightens line-height.
+   ============================================================= */
+
+@media (max-width: 380px) {
+  .hero-title {
+    font-size: clamp(1.25rem, 5vw, 1.5rem);
+    line-height: 1.15;
+  }
+  .hero-category {
+    font-size: 0.55rem;
+    padding: 0.2rem 0.5rem;
+    margin-bottom: 0.625rem;
+  }
+}
+
+
+/* =============================================================
+   10. SIDEBAR BELOW-CONTENT SPACING
+   When the sidebar collapses below main content at ≤960px,
+   add top margin for visual separation.
+   Risk: LOW — additive spacing.
+   ============================================================= */
+
+@media (max-width: 960px) {
+  #secondary {
+    position: static; /* remove sticky on mobile — not useful below content */
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--up6-border);
+  }
+}
+
+
+/* =============================================================
+   11. DISABLE LOGO WIGGLE ON MOBILE
+   The bounce animation is a pointer-device flourish; on touch
+   screens it fires on tap and feels unintentional.
+   Risk: LOW — cosmetic, scoped to ≤768px.
+   @since 2.6.1
+   ============================================================= */
+
+@media (max-width: 768px) {
+  .logo-icon:hover {
+    animation: none;
+    box-shadow: none;
+  }
+  .site-branding:hover .custom-logo {
+    animation: none;
+  }
+}
+
+
+/* =============================================================
+   12. PRINT EXCLUSION
+   Ensure this patch does not affect print output.
+   ============================================================= */
+
+@media print {
+  /* Reset any patch styles that might bleed into print */
+  .entry-content table {
+    display: table;
+    overflow-x: visible;
+  }
+}

@@ -1,0 +1,441 @@
+/**
+ * UP6 Print Stylesheet
+ *
+ * Strips all chrome and renders the article body cleanly for print.
+ * Loaded with media="print" — zero impact on screen rendering.
+ *
+ * Class names aligned to v2.7 markup as of 2026-03-24.
+ *
+ * @package UP6
+ * @since   2.5.59
+ * @updated 2.7.13
+ */
+
+/* =============================================================
+   PAGE SETUP
+   ============================================================= */
+
+@page {
+  margin: 2cm 2.5cm 2.8cm; /* extra bottom margin for the fixed footer */
+}
+
+/* Print footer on every page — reads translatable text from data attribute on <body> */
+body::after {
+  content: attr(data-print-footer);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: Georgia, serif;
+  font-size: 7.5pt;
+  color: #888 !important;
+  border-top: 0.5pt solid #ddd;
+  padding-top: 5pt;
+  text-align: center;
+  letter-spacing: 0.08em;
+}
+
+/* =============================================================
+   GLOBAL RESET
+   ============================================================= */
+
+*,
+*::before,
+*::after {
+  background: transparent !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  transition: none !important;
+  animation: none !important;
+}
+
+body {
+  color: #111 !important;
+  font-family: Georgia, 'Source Serif 4', serif;
+  font-size: 11pt;
+  line-height: 1.6;
+}
+
+/* =============================================================
+   STRIP CHROME
+   Anything that is not article content is hidden.
+   ============================================================= */
+
+.site-header,
+.header-brand-row,
+.header-nav-row,
+.mobile-nav-overlay,
+.mobile-nav-drawer,
+#secondary,
+.site-footer,
+.footer-bar,
+.footer-legal,
+.related-news,
+.comments-area,
+.entry-share,
+.entry-vote,
+.breadcrumb,
+.view-all,
+.back-to-top,
+.section-divider-ornament,
+#up6-scroll-progress {
+  display: none !important;
+}
+
+/* =============================================================
+   LAYOUT — single column, full width
+   ============================================================= */
+
+.site-content-inner,
+.single-content-inner {
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.content-area-wrap {
+  display: block !important;
+  grid-template-columns: none !important;
+  gap: 0 !important;
+}
+
+.site-main {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* Remove stepped layout width constraints */
+.single-article,
+.single-article .entry-header,
+.single-article .entry-thumbnail,
+.single-article .entry-content,
+.single-article .entry-vote,
+.single-article .entry-tags {
+  max-width: 100% !important;
+}
+
+/* =============================================================
+   MASTHEAD LINE
+   Site name + URL printed above the article as attribution.
+   ============================================================= */
+
+.site-main::before {
+  content: "UP6 Suara Semasa  \B7  up6.org";
+  display: block;
+  font-family: Georgia, serif;
+  font-size: 8pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #444 !important;
+  border-bottom: 2pt solid #C0392B;
+  padding-bottom: 6pt;
+  margin-bottom: 18pt;
+}
+
+/* =============================================================
+   ARTICLE HEADER
+   ============================================================= */
+
+.entry-header {
+  margin-bottom: 14pt;
+}
+
+.entry-badges {
+  margin-bottom: 6pt;
+}
+
+.entry-category-badge {
+  font-family: Georgia, serif;
+  font-size: 7.5pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #C0392B !important;
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+}
+
+.is-breaking {
+  background: transparent !important;
+  color: #C0392B !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.entry-title {
+  font-family: Georgia, 'Source Serif 4', serif;
+  font-size: 22pt;
+  font-weight: bold;
+  line-height: 1.15;
+  color: #111 !important;
+  margin: 0 0 10pt;
+  page-break-after: avoid;
+}
+
+.entry-subtitle {
+  font-size: 12pt;
+  color: #333 !important;
+  margin-bottom: 8pt;
+}
+
+.entry-excerpt {
+  font-family: Georgia, serif;
+  font-size: 11.5pt;
+  line-height: 1.65;
+  color: #333 !important;
+  border-left: 3pt solid #C0392B !important;
+  padding-left: 10pt;
+  margin-bottom: 10pt;
+  font-style: italic;
+  page-break-inside: avoid;
+}
+
+/* =============================================================
+   BYLINE — .entry-byline (v2.7 markup)
+   Shows: author name, published date, updated date.
+   Hides: avatar, SVG icons, Hijri date, views, reading time.
+   ============================================================= */
+
+.entry-byline {
+  display: block !important;
+  padding: 6pt 0;
+  border-top: 0.5pt solid #ccc !important;
+  border-bottom: 0.5pt solid #ccc !important;
+  margin-bottom: 14pt;
+  page-break-inside: avoid;
+}
+
+/* Hide avatar in print */
+.entry-author-avatar,
+.entry-author-avatar--img,
+img.entry-author-avatar--img {
+  display: none !important;
+}
+
+.entry-byline-body {
+  display: block !important;
+}
+
+.entry-byline-row {
+  display: inline !important;
+}
+
+.entry-author-name {
+  font-family: Georgia, serif;
+  font-size: 8.5pt;
+  font-weight: bold;
+  color: #222 !important;
+  text-decoration: none !important;
+  display: inline !important;
+}
+
+.entry-author-name::after {
+  content: "  \B7  ";
+  color: #999;
+  font-weight: normal;
+}
+
+/* Meta details row — linearize */
+.entry-meta-details {
+  display: inline !important;
+  flex-wrap: nowrap !important;
+  gap: 0 !important;
+}
+
+/* Hide all SVG icons in the metadata */
+.meta-icon {
+  display: none !important;
+}
+
+/* Hide CSS middot separators between meta items */
+.meta-item + .meta-item::before {
+  display: none !important;
+}
+
+/* Published date — show inline */
+.meta-item--published {
+  display: inline !important;
+  font-family: Georgia, serif;
+  font-size: 8.5pt;
+  color: #555 !important;
+}
+
+.meta-item--published time {
+  color: #555 !important;
+}
+
+/* Updated date — show inline with separator */
+.meta-item--updated {
+  display: inline !important;
+  font-family: Georgia, serif;
+  font-size: 8.5pt;
+  color: #555 !important;
+}
+
+.meta-item--published + .meta-item--updated::before,
+.meta-item--published + .meta-item--hijri + .meta-item--updated::before {
+  content: "  \B7  ";
+  color: #999;
+}
+
+/* Hide non-essential metadata in print */
+.meta-item--hijri,
+.meta-item--views,
+.meta-item--reading-time {
+  display: none !important;
+}
+
+/* =============================================================
+   FEATURED IMAGE
+   ============================================================= */
+
+.entry-thumbnail {
+  margin-bottom: 14pt;
+  border-radius: 0 !important;
+  overflow: visible !important;
+  page-break-inside: avoid;
+}
+
+.entry-thumbnail img {
+  width: 100% !important;
+  max-height: 280pt !important;
+  object-fit: cover;
+  display: block;
+}
+
+/* Caption: flatten overlay for print — static, below image */
+.entry-thumbnail {
+  border-radius: 0 !important;
+  margin-bottom: 0 !important;
+}
+.entry-thumbnail-caption {
+  position: static !important;
+  margin: 0 0 10pt !important;
+  padding: 4pt 0 0 6pt !important;
+  border-left: 1.5pt solid #C0392B !important;
+  background: transparent !important;
+  font-family: Georgia, serif;
+  font-size: 7.5pt !important;
+  font-style: italic !important;
+  color: #555 !important;
+  letter-spacing: 0 !important;
+  text-shadow: none !important;
+  line-height: 1.45;
+}
+.entry-thumbnail-caption::before {
+  content: 'Foto: ';
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 7.5pt !important;
+  letter-spacing: 0 !important;
+  color: #C0392B !important;
+}
+
+/* =============================================================
+   BODY CONTENT
+   ============================================================= */
+
+.entry-content {
+  font-family: Georgia, 'Source Serif 4', serif;
+  font-size: 11pt;
+  line-height: 1.7;
+  color: #111 !important;
+}
+
+.entry-content p {
+  margin-bottom: 9pt;
+  orphans: 3;
+  widows: 3;
+}
+
+.entry-content h2 {
+  font-family: Georgia, serif;
+  font-size: 14pt;
+  font-weight: bold;
+  color: #111 !important;
+  margin: 16pt 0 6pt;
+  page-break-after: avoid;
+}
+
+.entry-content h3 {
+  font-family: Georgia, serif;
+  font-size: 12pt;
+  font-weight: bold;
+  color: #111 !important;
+  margin: 12pt 0 5pt;
+  page-break-after: avoid;
+}
+
+.entry-content blockquote {
+  border-left: 3pt solid #C0392B !important;
+  padding: 6pt 10pt;
+  margin: 12pt 0;
+  background: transparent !important;
+  font-style: italic;
+  color: #333 !important;
+  page-break-inside: avoid;
+}
+
+.entry-content img {
+  max-width: 100%;
+  border-radius: 0 !important;
+  page-break-inside: avoid;
+}
+
+/* Suppress inline URL expansion in body links */
+.entry-content a::after {
+  content: none !important;
+}
+
+.entry-content a {
+  color: #111 !important;
+  text-decoration: underline;
+}
+
+/* =============================================================
+   TOPIC TAGS
+   ============================================================= */
+
+.entry-tags {
+  border-top: 0.5pt solid #ccc !important;
+  padding-top: 8pt;
+  margin-top: 10pt;
+  gap: 4pt;
+}
+
+.entry-tags-label {
+  font-size: 7pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #555 !important;
+}
+
+.entry-tags a {
+  font-size: 7pt;
+  color: #444 !important;
+  border: 0.5pt solid #bbb !important;
+  padding: 1pt 5pt;
+  border-radius: 0 !important;
+  text-decoration: none !important;
+}
+
+/* =============================================================
+   SOURCE URL
+   Appended below the article via data-permalink on <article>.
+   ============================================================= */
+
+.single article[data-permalink]::after {
+  content: "Sumber: " attr(data-permalink);
+  display: block;
+  font-family: Georgia, serif;
+  font-size: 8pt;
+  color: #666 !important;
+  border-top: 0.5pt solid #ccc;
+  padding-top: 8pt;
+  margin-top: 14pt;
+  word-break: break-all;
+}

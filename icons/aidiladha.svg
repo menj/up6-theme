@@ -1,0 +1,29 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main dome -->
+  <path d="M12 4c-4 0-7 4-7 8h14c0-4-3-8-7-8z" fill="#3a6b87"/>
+  <path d="M12 4.5c-2.8 0-5 3-5 6.5h10c0-3.5-2.2-6.5-5-6.5z" fill="#4a8aaa" opacity=".5"/>
+  <!-- Dome crescent finial -->
+  <path d="M12.6 2.5a1.3 1.3 0 01-1.3 1.6 1 1 0 001.3-1.6z" fill="#d4a017"/>
+  <line x1="12" y1="1.5" x2="12" y2="4" stroke="#d4a017" stroke-width=".5"/>
+  <!-- Left minaret -->
+  <rect x="3.5" y="8" width="2" height="10" fill="#3a6b87"/>
+  <path d="M4.5 6.5a1 1 0 011 1v.5h-2v-.5a1 1 0 011-1z" fill="#4a8aaa"/>
+  <circle cx="4.5" cy="6" r=".5" fill="#d4a017"/>
+  <!-- Right minaret -->
+  <rect x="18.5" y="8" width="2" height="10" fill="#3a6b87"/>
+  <path d="M19.5 6.5a1 1 0 011 1v.5h-2v-.5a1 1 0 011-1z" fill="#4a8aaa"/>
+  <circle cx="19.5" cy="6" r=".5" fill="#d4a017"/>
+  <!-- Mosque base -->
+  <rect x="5" y="12" width="14" height="6" fill="#2e5871"/>
+  <rect x="5" y="12" width="14" height="1" fill="#3a6b87" opacity=".6"/>
+  <!-- Main doorway arch -->
+  <path d="M10 13.5a2 2 0 014 0v4.5h-4z" fill="#d4a017" opacity=".6"/>
+  <!-- Side arches -->
+  <path d="M6.5 14.5a1 1 0 012 0v3.5h-2z" fill="#d4a017" opacity=".4"/>
+  <path d="M15.5 14.5a1 1 0 012 0v3.5h-2z" fill="#d4a017" opacity=".4"/>
+  <!-- Base line -->
+  <rect x="3" y="18" width="18" height="1" rx=".3" fill="#1B3C53"/>
+  <!-- Stars -->
+  <path d="M8 3l.3-.8.3.8.8.3-.8.3-.3.8-.3-.8-.8-.3z" fill="#d4a017"/>
+  <path d="M16 3l.3-.8.3.8.8.3-.8.3-.3.8-.3-.8-.8-.3z" fill="#d4a017"/>
+</svg>

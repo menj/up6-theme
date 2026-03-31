@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Hanging ring -->
+  <circle cx="256" cy="52" r="16" fill="none" stroke="#d4a017" stroke-width="8"/>
+  <!-- Hanging line -->
+  <line x1="256" y1="12" x2="256" y2="36" stroke="#d4a017" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Dome top -->
+  <path fill="#7b2d8e" d="M176 200C176 130 210 96 256 80c46 16 80 50 80 120H176z"/>
+  <!-- Dome connector to ring -->
+  <rect x="240" y="66" width="32" height="20" rx="4" fill="#7b2d8e"/>
+
+  <!-- Horizontal band top -->
+  <path fill="#5a1d6e" d="M160 200h192l12 24H148z"/>
+
+  <!-- Body — tapered trapezoid -->
+  <path fill="#7b2d8e" d="M148 224l20 180h176l20-180z"/>
+
+  <!-- Horizontal band bottom -->
+  <path fill="#5a1d6e" d="M166 398h180l8 20H158z"/>
+
+  <!-- Bottom section — rounded -->
+  <path fill="#7b2d8e" d="M158 418h196l-8 30c-12 16-36 28-90 28s-78-12-90-28z"/>
+
+  <!-- Bottom finial -->
+  <path fill="#5a1d6e" d="M246 476l10 24 10-24z"/>
+
+  <!-- Gold arch window cutout -->
+  <path fill="#d4a017" d="M210 260c0-30 20-50 46-50s46 20 46 50v110H210z"/>
+
+  <!-- Mughal arch notch at top of window -->
+  <path fill="#d4a017" d="M220 265c0-28 16-45 36-45s36 17 36 45" fill="none" stroke="#d4a017" stroke-width="2"/>
+
+  <!-- Flame — outer -->
+  <path fill="#cc2222" d="M256 240c-14 18-30 38-30 65 0 20 14 35 30 35s30-15 30-35c0-27-16-47-30-65z"/>
+  <!-- Flame — inner cutout for depth -->
+  <path fill="#d4a017" d="M256 270c-8 10-16 22-16 38 0 12 7 20 16 20s16-8 16-20c0-16-8-28-16-38z"/>
+
+  <!-- Wick / sumbu pelita -->
+  <rect x="248" y="330" width="16" height="30" rx="2" fill="#5a1d6e"/>
+
+  <!-- Dome geometric accent — simplified star pattern -->
+  <circle cx="220" cy="155" r="8" fill="none" stroke="#d4a017" stroke-width="3"/>
+  <circle cx="256" cy="135" r="8" fill="none" stroke="#d4a017" stroke-width="3"/>
+  <circle cx="292" cy="155" r="8" fill="none" stroke="#d4a017" stroke-width="3"/>
+
+  <!-- Side panel accents -->
+  <circle cx="195" cy="290" r="6" fill="none" stroke="#d4a017" stroke-width="2.5"/>
+  <circle cx="195" cy="330" r="6" fill="none" stroke="#d4a017" stroke-width="2.5"/>
+  <circle cx="195" cy="370" r="6" fill="none" stroke="#d4a017" stroke-width="2.5"/>
+  <circle cx="317" cy="290" r="6" fill="none" stroke="#d4a017" stroke-width="2.5"/>
+  <circle cx="317" cy="330" r="6" fill="none" stroke="#d4a017" stroke-width="2.5"/>
+  <circle cx="317" cy="370" r="6" fill="none" stroke="#d4a017" stroke-width="2.5"/>
+
+  <!-- Flanking stars -->
+  <polygon fill="#d4a017" points="120,100 124,112 136,112 126,120 130,132 120,124 110,132 114,120 104,112 116,112"/>
+  <polygon fill="#d4a017" points="392,100 396,112 408,112 398,120 402,132 392,124 382,132 386,120 376,112 388,112"/>
+
+  <!-- Small stars -->
+  <polygon fill="#d4a017" points="148,60 151,69 160,69 153,74 155,83 148,78 141,83 143,74 136,69 145,69"/>
+  <polygon fill="#d4a017" points="364,60 367,69 376,69 369,74 371,83 364,78 357,83 359,74 352,69 361,69"/>
+</svg>

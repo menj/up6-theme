@@ -1,0 +1,48 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <!-- ═══ WRIST AND ARM ═══ -->
+  <rect x="8.5" y="16" width="5.5" height="7" rx=".8" fill="#d4956a"/>
+  <rect x="9" y="16" width="4.5" height="7" rx=".6" fill="#c8876a" opacity=".4"/>
+
+  <!-- ═══ RIBBON — trailing end flowing right ═══ -->
+  <path d="M14 18.5c2 .5 4 1 6.5.3 1.5-.4 2.5-1 3-1.5" fill="none" stroke="#cc0001" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M14 18.5c2 .5 4 1 6.5.3 1.5-.4 2.5-1 3-1.5" fill="none" stroke="#fff" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="1.2 1.2"/>
+  <!-- Ribbon — trailing end flowing left -->
+  <path d="M8.5 18c-2 .3-3.5 1-5 1.8-1 .5-1.8.6-2.5.5" fill="none" stroke="#cc0001" stroke-width="2" stroke-linecap="round"/>
+  <path d="M8.5 18c-2 .3-3.5 1-5 1.8-1 .5-1.8.6-2.5.5" fill="none" stroke="#fff" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="1 1"/>
+  <!-- Small flag tip on left ribbon -->
+  <rect x=".3" y="17.2" width="2.5" height="1.8" rx=".2" fill="#cc0001" opacity=".6"/>
+  <rect x=".3" y="17.8" width="2.5" height=".6" fill="#fff" opacity=".5"/>
+
+  <!-- ═══ CIRCULAR BADGE at wrist ═══ -->
+  <circle cx="11.5" cy="17.8" r="2.8" fill="#010066"/>
+  <circle cx="11.5" cy="17.8" r="2.8" fill="none" stroke="#0a0a5a" stroke-width=".3"/>
+  <!-- Crescent -->
+  <circle cx="10.5" cy="17.5" r="1.4" fill="#fc0"/>
+  <circle cx="11" cy="17.2" r="1.1" fill="#010066"/>
+  <!-- 14-pointed star -->
+  <polygon points="12.8,17.8 13.1,17.2 13.3,17.8 13.9,17.5 13.5,18 13.9,18.4 13.2,18.2 13,18.7 12.8,18.2 12.2,18.4 12.5,18 12.2,17.5 12.9,17.6" fill="#fc0"/>
+
+  <!-- ═══ FIST ═══ -->
+  <!-- Fist base block -->
+  <path d="M7.5 9c0-1 .5-1.5 1.2-1.5h5.6c.7 0 1.2.5 1.2 1.5v5c0 1.5-1 2.5-2 2.5H9.5c-1 0-2-1-2-2.5z" fill="#d4956a"/>
+  <!-- Finger segments — four curled fingers -->
+  <rect x="7.8" y="7" width="2" height="3.5" rx=".9" fill="#daa07a"/>
+  <rect x="9.5" y="6.2" width="2" height="4.3" rx=".9" fill="#d4956a"/>
+  <rect x="11.2" y="6.5" width="2" height="4" rx=".9" fill="#daa07a"/>
+  <rect x="12.8" y="7.2" width="1.8" height="3.3" rx=".8" fill="#d4956a"/>
+  <!-- Finger tips curled over -->
+  <rect x="7.5" y="8.5" width="2.3" height="2" rx=".8" fill="#c8876a"/>
+  <rect x="9.3" y="7.8" width="2.2" height="2" rx=".8" fill="#c8876a"/>
+  <rect x="11" y="8" width="2.2" height="2" rx=".8" fill="#c8876a"/>
+  <rect x="12.6" y="8.5" width="2" height="1.8" rx=".7" fill="#c8876a"/>
+  <!-- Thumb — wraps across front -->
+  <path d="M7.8 10.5c-.8-.3-1.3-1-1.2-1.8.1-.8.6-1.2 1.2-1.2l1 .3v3z" fill="#daa07a"/>
+  <path d="M7 9.5c-.2-.5 0-1.2.5-1.5" fill="none" stroke="#b87a5a" stroke-width=".25"/>
+  <!-- Knuckle highlights -->
+  <path d="M8 9.5h1.5" stroke="#b87a5a" stroke-width=".2" opacity=".6"/>
+  <path d="M10 8.8h1.5" stroke="#b87a5a" stroke-width=".2" opacity=".6"/>
+  <path d="M11.8 9h1.5" stroke="#b87a5a" stroke-width=".2" opacity=".6"/>
+  <!-- Palm shadow -->
+  <path d="M8.5 11h6" stroke="#b87a5a" stroke-width=".25" opacity=".4"/>
+  <path d="M8.5 12.5h6" stroke="#b87a5a" stroke-width=".2" opacity=".3"/>
+</svg>

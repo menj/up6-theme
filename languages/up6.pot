@@ -1,0 +1,2245 @@
+# UP6 WordPress Theme — Translation Template
+# Copyright (C) 2026 UP6
+# This file is distributed under the GNU General Public License v2 or later.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: UP6 2.6.39\n"
+"Report-Msgid-Bugs-To: contact@up6.org\n"
+"POT-Creation-Date: 2026-03-18 08:38+0000\n"
+"PO-Revision-Date: 2026-03-18 08:38+0800\n"
+"Last-Translator: UP6 Editorial <contact@up6.org>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: up6\n"
+
+#: sidebar.php:112
+msgid "%s ago"
+msgstr ""
+
+#: single.php:98
+msgid "%s reads"
+msgstr ""
+
+#: template-about.php:31
+msgid "&ldquo;Berita Malaysia, Cakrawala Dunia&rdquo;"
+msgstr ""
+
+#: includes/theme-options.php:433
+msgid "(one day ahead)"
+msgstr ""
+
+#: includes/theme-options.php:431
+msgid "(one day behind)"
+msgstr ""
+
+#: includes/theme-options.php:432
+msgid "0 — Astronomical (default)"
+msgstr ""
+
+#: template-corrections.php:69
+msgid "A senior editor will review and approve the correction notice before publication"
+msgstr ""
+
+#: footer.php:154 functions.php:1270 functions.php:1315
+msgid "About"
+msgstr ""
+
+#: template-about.php:28
+msgid "About Us"
+msgstr ""
+
+#: template-privacy-policy.php:96
+msgid "Access the personal information we hold about you"
+msgstr ""
+
+#: template-disclaimer.php:65
+msgid "Access to or use of content published on this portal"
+msgstr ""
+
+#: template-editorial-policy.php:49
+msgid "Accuracy and Fact Verification"
+msgstr ""
+
+#: template-disclaimer.php:71
+msgid "Accuracy of Reporting"
+msgstr ""
+
+#: functions.php:997
+msgid "Add New FAQ Item"
+msgstr ""
+
+#: includes/theme-options.php:460
+msgid "Adds a noindex robots directive to search result pages and the Privacy Policy, Disclaimer, and Corrections page templates. Enabled by default — these pages carry no SEO value. Disable only if you have a specific reason to index them."
+msgstr ""
+
+#: template-meaning-of-6.php:209
+msgid "Adil"
+msgstr ""
+
+#: template-contact.php:118 template-contact.php:160
+msgid "Admin notice:"
+msgstr ""
+
+#: footer.php:156
+msgid "Advertise"
+msgstr ""
+
+#: template-meaning-of-6.php:52
+msgid "Akta Sakit Hati 1998"
+msgstr ""
+
+#: functions.php:118
+msgid "All caught up!"
+msgstr ""
+
+#: template-editorial-policy.php:118
+msgid "All original content published by UP6 Suara Semasa is the property of Langgam Fikir Enterprise. Quotations or references to external sources will be credited with a direct link to the original. UP6 does not republish content in full without written permission from the copyright holder."
+msgstr ""
+
+#: template-disclaimer.php:85
+msgid "All original content published on UP6 Suara Semasa — including articles, reports, commentaries, photographs, and multimedia — is the intellectual property of Langgam Fikir Enterprise unless otherwise stated."
+msgstr ""
+
+#: functions.php:1541
+msgid "All view counts have been reset."
+msgstr ""
+
+#: template-meaning-of-6.php:217
+msgid "Amanah"
+msgstr ""
+
+#: template-disclaimer.php:91
+msgid "Amendments"
+msgstr ""
+
+#: template-privacy-policy.php:117
+msgid "Amendments to This Policy"
+msgstr ""
+
+#: template-privacy-policy.php:63
+msgid "Analysing usage patterns to improve portal content and performance"
+msgstr ""
+
+#: template-editorial-policy.php:71
+msgid "Analysis"
+msgstr ""
+
+#: template-privacy-policy.php:73
+msgid "Analytics cookies"
+msgstr ""
+
+#: template-corrections.php:91
+msgid "Any person or organisation who considers themselves to have been inaccurately or unfairly represented in a UP6 Suara Semasa report has the right to request a response. We will publish a response or correction of record where the complaint is substantiated. Requests that do not identify a specific inaccuracy and are instead directed at editorial judgement will not be upheld, but will receive acknowledgement."
+msgstr ""
+
+#: template-disclaimer.php:48
+msgid "Any reliance you place on information published on UP6 Suara Semasa is strictly at your own risk."
+msgstr ""
+
+#: archive.php:9 archive.php:33
+msgid "Archive"
+msgstr ""
+
+#: footer.php:157
+msgid "Archives"
+msgstr ""
+
+#: template-privacy-policy.php:87
+msgid "Articles on UP6 Suara Semasa may contain links to external websites. We are not responsible for the privacy practices of those websites and encourage you to read their privacy policies separately."
+msgstr ""
+
+#: template-disclaimer.php:55
+msgid "Articles published under the Opinion, Analysis, and Commentary categories represent the personal views of the named author and do not necessarily reflect the editorial position of UP6 Suara Semasa or Langgam Fikir Enterprise."
+msgstr ""
+
+#: template-editorial-policy.php:81
+msgid "Articles will not be deleted merely because they contain an error — a correction is the more responsible approach"
+msgstr ""
+
+#: template-corrections.php:56
+msgid "Attribution errors"
+msgstr ""
+
+#: archive.php:30
+msgid "Author Archive"
+msgstr ""
+
+#: single.php:41
+msgid "BREAKING NEWS"
+msgstr ""
+
+#: template-about.php:50
+msgid "Bahasa Melayu"
+msgstr ""
+
+#: template-editorial-policy.php:63
+msgid "Balance and Fairness"
+msgstr ""
+
+#: template-about.php:64
+msgid "Beyond news reporting, UP6 Suara Semasa also opens space for %1$s through the publication of %2$s, short fiction, literary criticism and book reviews. This initiative aims to strengthen discourse on Malay language, culture and thought within the contemporary digital media ecosystem."
+msgstr ""
+
+#: functions.php:369
+msgid "Breadcrumb"
+msgstr ""
+
+#: template-meaning-of-6.php:114
+msgid "Budaya"
+msgstr ""
+
+#: template-meaning-of-6.php:214
+msgid "Built for the public. Answerable to the public. Nobody else."
+msgstr ""
+
+#: template-privacy-policy.php:83
+msgid "Business asset transfers, should Langgam Fikir Enterprise be involved in a merger or acquisition — you will be notified in advance"
+msgstr ""
+
+#: template-privacy-policy.php:47
+msgid "By accessing and using this portal, you agree to the terms set out in this policy. If you do not agree, please discontinue use of this portal."
+msgstr ""
+
+#: includes/theme-options.php:349
+msgid "Cards shown in each category grid."
+msgstr ""
+
+#: functions.php:1573
+msgid "Category"
+msgstr ""
+
+#: archive.php:14
+msgid "Category Archive"
+msgstr ""
+
+#: includes/theme-options.php:342
+msgid "Category sections to display"
+msgstr ""
+
+#: functions.php:473 functions.php:508
+msgid "Change Photo"
+msgstr ""
+
+#: template-privacy-policy.php:114
+msgid "Children"
+msgstr ""
+
+#: includes/theme-options.php:501
+msgid "Cipher Gate plugin is active."
+msgstr ""
+
+#: comments.php:51
+msgid "Comments are closed."
+msgstr ""
+
+#: template-editorial-policy.php:136
+msgid "Complaints and Feedback"
+msgstr ""
+
+#: footer.php:89 footer.php:155 functions.php:1275 functions.php:1320 includes/theme-options.php:205 template-corrections.php:85 template-disclaimer.php:79 template-disclaimer.php:100 template-editorial-policy.php:88 template-editorial-policy.php:142 template-privacy-policy.php:106 template-privacy-policy.php:126
+msgid "Contact"
+msgstr ""
+
+#: functions.php:222 includes/theme-options.php:268
+msgid "Contact Address"
+msgstr ""
+
+#: functions.php:240
+msgid "Contact Email"
+msgstr ""
+
+#: template-contact.php:121
+msgid "Contact Form 7 is not active. Please install and activate the plugin."
+msgstr ""
+
+#: includes/theme-options.php:398
+msgid "Contact Form 7 — Form ID"
+msgstr ""
+
+#: functions.php:231
+msgid "Contact Phone"
+msgstr ""
+
+#: template-disclaimer.php:94 template-privacy-policy.php:120
+msgid "Contact Us"
+msgstr ""
+
+#: template-privacy-policy.php:52
+msgid "Contact information"
+msgstr ""
+
+#: template-disclaimer.php:86
+msgid "Content may not be reproduced, distributed, transmitted, or republished in any form without prior written permission from Langgam Fikir Enterprise, except for personal, non-commercial use with proper attribution. For licensing enquiries, please use the contact details below."
+msgstr ""
+
+#: template-privacy-policy.php:54
+msgid "Cookies"
+msgstr ""
+
+#: template-privacy-policy.php:69
+msgid "Cookies and Tracking Technologies"
+msgstr ""
+
+#: single.php:164
+msgid "Copy link"
+msgstr ""
+
+#: template-disclaimer.php:84
+msgid "Copyright"
+msgstr ""
+
+#: functions.php:249 includes/theme-options.php:287
+msgid "Copyright Line"
+msgstr ""
+
+#: template-editorial-policy.php:117
+msgid "Copyright and External Sources"
+msgstr ""
+
+#: template-editorial-policy.php:45
+msgid "Core Principles"
+msgstr ""
+
+#: template-corrections.php:84
+msgid "Correction requests can be submitted through our %s page. We review every request and will respond within three working days."
+msgstr ""
+
+#: functions.php:1276 functions.php:1321
+msgid "Corrections"
+msgstr ""
+
+#: template-editorial-policy.php:76
+msgid "Corrections and Updates"
+msgstr ""
+
+#: template-corrections.php:62
+msgid "Corrections are appended to the original article with a clearly marked correction notice stating the date and the nature of the change. The original headline and publication date are preserved. Where a correction materially changes the substance of a report, a note will also be carried at the top of the article."
+msgstr ""
+
+#: archive.php:27
+msgid "Daily Archive"
+msgstr ""
+
+#: template-privacy-policy.php:111
+msgid "Data Retention"
+msgstr ""
+
+#: template-privacy-policy.php:89
+msgid "Data Security"
+msgstr ""
+
+#: functions.php:1383
+msgid "Deepavali"
+msgstr ""
+
+#: functions.php:1313
+msgid "Default"
+msgstr ""
+
+#: includes/theme-options.php:450
+msgid "Disables right-click, text selection, and copy shortcuts for non-admin visitors. Does not affect logged-in editors or administrators. Note: this is a deterrent only — it cannot prevent determined copying."
+msgstr ""
+
+#: functions.php:1274 functions.php:1319
+msgid "Disclaimer"
+msgstr ""
+
+#: includes/theme-options.php:388
+msgid "Display categories that have no articles yet."
+msgstr ""
+
+#: template-meaning-of-6.php:98
+msgid "Domestik"
+msgstr ""
+
+#: functions.php:998
+msgid "Edit FAQ Item"
+msgstr ""
+
+#: template-corrections.php:93
+msgid "Editorial Accountability"
+msgstr ""
+
+#: template-about.php:55
+msgid "Editorial Approach"
+msgstr ""
+
+#: template-editorial-policy.php:59
+msgid "Editorial Independence"
+msgstr ""
+
+#: functions.php:1272 functions.php:1317 template-about.php:89
+msgid "Editorial Policy"
+msgstr ""
+
+#: template-meaning-of-6.php:110
+msgid "Ekonomi"
+msgstr ""
+
+#: includes/theme-options.php:280
+msgid "Email"
+msgstr ""
+
+#: footer.php:121
+msgid "Email us"
+msgstr ""
+
+#: template-privacy-policy.php:74
+msgid "Embedded content cookies"
+msgstr ""
+
+#: includes/theme-options.php:448
+msgid "Enable content copy protection"
+msgstr ""
+
+#: template-privacy-policy.php:64
+msgid "Ensuring the security and integrity of the portal"
+msgstr ""
+
+#: functions.php:1137
+msgid "Enter subtitle / dek line…"
+msgstr ""
+
+#: template-corrections.php:55
+msgid "Errors of context"
+msgstr ""
+
+#: single.php:101
+msgid "Estimated reading time"
+msgstr ""
+
+#: template-editorial-policy.php:50
+msgid "Every fact published by UP6 Suara Semasa must be verified through at least two credible sources before publication. Preferred primary sources include:"
+msgstr ""
+
+#: includes/theme-options.php:360
+msgid "Excerpt length (words)"
+msgstr ""
+
+#: template-disclaimer.php:58
+msgid "External Links"
+msgstr ""
+
+#: functions.php:1314 template-faq.php:61
+msgid "FAQ"
+msgstr ""
+
+#: functions.php:996
+msgid "FAQ Item"
+msgstr ""
+
+#: functions.php:995 functions.php:1004
+msgid "FAQ Items"
+msgstr ""
+
+#: functions.php:1269
+msgid "FAQ Page"
+msgstr ""
+
+#: functions.php:261 includes/theme-options.php:304
+msgid "Facebook URL"
+msgstr ""
+
+#: template-editorial-policy.php:79
+msgid "Factual corrections will be displayed prominently at the top or bottom of the relevant article"
+msgstr ""
+
+#: template-corrections.php:54
+msgid "Factual errors"
+msgstr ""
+
+#: functions.php:119
+msgid "Failed to load. Try again."
+msgstr ""
+
+#: template-meaning-of-6.php:210
+msgid "Fair in method. We give the right of reply. We present competing accounts. We do not use journalism as a weapon — but we do not use fairness as an excuse for cowardice either."
+msgstr ""
+
+#: sidebar.php:21
+msgid "Featured"
+msgstr ""
+
+#: index.php:41
+msgid "Featured Story"
+msgstr ""
+
+#: includes/theme-options.php:467
+msgid "Festive Occasion"
+msgstr ""
+
+#: includes/theme-options.php:416
+msgid "Find your Place ID using the %s. Paste it here — it begins with \"ChIJ\"."
+msgstr ""
+
+#: includes/theme-options.php:202
+msgid "Footer"
+msgstr ""
+
+#: includes/theme-options.php:262
+msgid "Footer Description"
+msgstr ""
+
+#: functions.php:205
+msgid "Footer Identity"
+msgstr ""
+
+#: functions.php:213
+msgid "Footer Tagline / Description"
+msgstr ""
+
+#: template-about.php:88
+msgid "For more on how we work, see our %1$s and %2$s."
+msgstr ""
+
+#: template-contact.php:70
+msgid "For press enquiries, partnership proposals, or advertising, please indicate the nature of your message in the subject field."
+msgstr ""
+
+#: template-privacy-policy.php:65
+msgid "Fulfilling legal obligations under PDPA and applicable Malaysian legislation"
+msgstr ""
+
+#: template-privacy-policy.php:72
+msgid "Functional cookies"
+msgstr ""
+
+#: template-editorial-policy.php:128
+msgid "Further reading: %s"
+msgstr ""
+
+#: includes/theme-options.php:206 template-disclaimer.php:46
+msgid "General"
+msgstr ""
+
+#: template-contact.php:55
+msgid "Get In Touch"
+msgstr ""
+
+#: template-meaning-of-6.php:106
+msgid "Global"
+msgstr ""
+
+#: includes/theme-options.php:404
+msgid "Google Maps Embed API Key"
+msgstr ""
+
+#: includes/theme-options.php:410
+msgid "Google Maps Place ID"
+msgstr ""
+
+#: template-disclaimer.php:88
+msgid "Governing Law"
+msgstr ""
+
+#: functions.php:1379
+msgid "Hari Kebangsaan"
+msgstr ""
+
+#: functions.php:1381
+msgid "Hari Keputeraan YDP Agong"
+msgstr ""
+
+#: functions.php:1380
+msgid "Hari Malaysia"
+msgstr ""
+
+#: functions.php:1388
+msgid "Hari Pekerja"
+msgstr ""
+
+#: functions.php:1372
+msgid "Hari Raya Aidilfitri"
+msgstr ""
+
+#: functions.php:1373
+msgid "Hari Raya Haji"
+msgstr ""
+
+#: functions.php:1385
+msgid "Hari Wesak"
+msgstr ""
+
+#: includes/theme-options.php:207
+msgid "Hidden Tags"
+msgstr ""
+
+#: includes/theme-options.php:502
+msgid "Hidden tag management and filtering is handled by the plugin. Configure at Cipher Gate → Hidden Tags in the admin menu."
+msgstr ""
+
+#: includes/theme-options.php:509
+msgid "Hidden tags"
+msgstr ""
+
+#: includes/theme-options.php:429
+msgid "Hijri Date Offset"
+msgstr ""
+
+#: functions.php:370 functions.php:713
+msgid "Home"
+msgstr ""
+
+#: includes/theme-options.php:204
+msgid "Homepage"
+msgstr ""
+
+#: template-corrections.php:61
+msgid "How Corrections Are Made"
+msgstr ""
+
+#: template-about.php:82
+msgid "How We Operate"
+msgstr ""
+
+#: template-privacy-policy.php:59
+msgid "How We Use Your Information"
+msgstr ""
+
+#: template-corrections.php:73
+msgid "How to Submit a Correction Request"
+msgstr ""
+
+#: template-privacy-policy.php:53
+msgid "IP address, browser type, pages visited, and session duration collected automatically via analytics tools"
+msgstr ""
+
+#: includes/theme-options.php:333
+msgid "Icons only appear in the footer when a URL is provided. Leave blank to hide."
+msgstr ""
+
+#: template-editorial-policy.php:55
+msgid "Identified and accountable subject-matter experts"
+msgstr ""
+
+#: template-meaning-of-6.php:192
+msgid "If you are reading this, you are why we exist."
+msgstr ""
+
+#: template-corrections.php:74
+msgid "If you believe an article published by UP6 Suara Semasa contains a factual error, we want to hear from you. When submitting a correction request, please include:"
+msgstr ""
+
+#: template-disclaimer.php:99
+msgid "If you have any questions about this disclaimer or wish to raise a concern about content published on UP6 Suara Semasa, please reach us through our %s page."
+msgstr ""
+
+#: template-privacy-policy.php:125
+msgid "If you have any questions, concerns, or complaints regarding this Privacy Policy or the way we handle your personal data, please contact us through our %s page."
+msgstr ""
+
+#: template-privacy-policy.php:49
+msgid "Information We Collect"
+msgstr ""
+
+#: template-privacy-policy.php:60
+msgid "Information collected is used solely for the following purposes:"
+msgstr ""
+
+#: includes/theme-options.php:314
+msgid "Instagram URL"
+msgstr ""
+
+#: template-privacy-policy.php:45
+msgid "Introduction"
+msgstr ""
+
+#: functions.php:1376
+msgid "Israk & Mikraj"
+msgstr ""
+
+#: template-meaning-of-6.php:189
+msgid "It is a claim to the Sixth Estate: independent, language-first, answerable to no authority but the truth and the public interest."
+msgstr ""
+
+#: template-meaning-of-6.php:188
+msgid "It is a position — on what journalism is for, on who it serves, on what it owes the people who read it."
+msgstr ""
+
+#: template-meaning-of-6.php:190
+msgid "It is six lenses through which every story is seen, six commitments we make on every byline, six voices we exist to make audible."
+msgstr ""
+
+#: template-disclaimer.php:72
+msgid "Journalism by its nature involves working with incomplete and evolving information. UP6 Suara Semasa endeavours to verify facts before publication and to update or correct articles where errors are identified."
+msgstr ""
+
+#: template-meaning-of-6.php:218
+msgid "Journalism is a trust. The reader gives us their time and their confidence. We hold that as a duty, not a transaction."
+msgstr ""
+
+#: template-meaning-of-6.php:145
+msgid "Keadilan"
+msgstr ""
+
+#: template-meaning-of-6.php:138
+msgid "Kebebasan"
+msgstr ""
+
+#: template-meaning-of-6.php:159
+msgid "Keberanian di Hadapan Kuasa"
+msgstr ""
+
+#: template-meaning-of-6.php:152
+msgid "Ketelusan"
+msgstr ""
+
+#: template-meaning-of-6.php:131
+msgid "Ketepatan"
+msgstr ""
+
+#: functions.php:1386
+msgid "Krismas"
+msgstr ""
+
+#: template-disclaimer.php:104 template-privacy-policy.php:130
+msgid "Langgam Fikir Enterprise &mdash; Registration No. 202503137729"
+msgstr ""
+
+#: template-privacy-policy.php:118
+msgid "Langgam Fikir Enterprise reserves the right to amend this Privacy Policy at any time. Any changes will take effect immediately upon publication on this page. We encourage you to review this page periodically. The date of the most recent update appears at the top of this page."
+msgstr ""
+
+#: template-disclaimer.php:92
+msgid "Langgam Fikir Enterprise reserves the right to amend this disclaimer at any time without prior notice. Changes take effect immediately upon publication. The date of the most recent update appears at the top of this page. Continued use of this portal after any changes constitutes acceptance of the revised disclaimer."
+msgstr ""
+
+#: template-corrections.php:37 template-disclaimer.php:36 template-editorial-policy.php:35 template-privacy-policy.php:35
+msgid "Last updated: %s"
+msgstr ""
+
+#: comments.php:56
+msgid "Leave a Comment"
+msgstr ""
+
+#: includes/theme-options.php:293
+msgid "Legal / Ownership Notice"
+msgstr ""
+
+#: template-disclaimer.php:62
+msgid "Limitation of Liability"
+msgstr ""
+
+#: template-meaning-of-6.php:78
+msgid "Linguistic, ethnic, religious — whose language and culture are treated as footnotes to a national narrative written without them, and whose concerns are addressed, when they are addressed at all, as special pleading rather than as the legitimate claims of citizens."
+msgstr ""
+
+#: template-privacy-policy.php:86
+msgid "Links to External Websites"
+msgstr ""
+
+#: template-about.php:59
+msgid "Literature and Culture"
+msgstr ""
+
+#: functions.php:116
+msgid "Load More"
+msgstr ""
+
+#: functions.php:117
+msgid "Loading…"
+msgstr ""
+
+#: template-contact.php:141
+msgid "Location map"
+msgstr ""
+
+#: functions.php:1375
+msgid "Maal Hijrah"
+msgstr ""
+
+#: functions.php:184
+msgid "Main Sidebar"
+msgstr ""
+
+#: template-meaning-of-6.php:59
+msgid "Malaysian public discourse has been systematically narrowed. Media ownership is concentrated in the hands of entities with direct or indirect ties to political power. Access to print and broadcast licences has historically been conditioned on political alignment. Language hierarchy has long treated Bahasa Melayu as a domestic concern and English as the language of record, producing a media landscape in which the majority language is the minority voice. The result is a press that, with honourable exceptions, serves the powerful better than it serves the public."
+msgstr ""
+
+#: template-meaning-of-6.php:118
+msgid "Manusia"
+msgstr ""
+
+#: template-contact.php:164
+msgid "Map is hidden. Add your Google Maps API key and Place ID in %s."
+msgstr ""
+
+#: functions.php:1378
+msgid "Maulid Nabi"
+msgstr ""
+
+#: template-editorial-policy.php:53
+msgid "Media statements or official statements from the parties involved"
+msgstr ""
+
+#: template-editorial-policy.php:108
+msgid "Mental health and suicide — we adhere to responsible reporting guidelines"
+msgstr ""
+
+#: archive.php:24
+msgid "Monthly Archive"
+msgstr ""
+
+#: sidebar.php:134
+msgid "Most Active"
+msgstr ""
+
+#: index.php:194
+msgid "Most Recent"
+msgstr ""
+
+#: includes/theme-options.php:439
+msgid "Most Viewed — Day Range"
+msgstr ""
+
+#: template-meaning-of-6.php:37
+msgid "Most news gives you one version. One angle. One approved reading of events, delivered with the confidence of institutions that have never had to answer for being wrong."
+msgstr ""
+
+#: template-editorial-policy.php:106
+msgid "National security and inter-ethnic relations"
+msgstr ""
+
+#: functions.php:999
+msgid "New FAQ Item"
+msgstr ""
+
+#: comments.php:41
+msgid "Newer Comments →"
+msgstr ""
+
+#: template-editorial-policy.php:70
+msgid "News reports"
+msgstr ""
+
+#: functions.php:1002
+msgid "No FAQ items found"
+msgstr ""
+
+#: template-faq.php:98
+msgid "No FAQ items found. Add some via FAQ Items in the admin."
+msgstr ""
+
+#: functions.php:1003
+msgid "No FAQ items in trash"
+msgstr ""
+
+#: search.php:86
+msgid "No Results"
+msgstr ""
+
+#: archive.php:100
+msgid "No articles found in this archive."
+msgstr ""
+
+#: index.php:66
+msgid "No articles have been published yet. Check back soon."
+msgstr ""
+
+#: index.php:150
+msgid "No articles in this category yet."
+msgstr ""
+
+#: search.php:89
+msgid "No articles matched your search. Try a different spelling or a broader term."
+msgstr ""
+
+#: template-contact.php:125
+msgid "No form ID set. Go to %s and enter your CF7 form ID."
+msgstr ""
+
+#: includes/theme-options.php:516
+msgid "No tags found. Create some tags first."
+msgstr ""
+
+#: functions.php:1620
+msgid "No view data yet for the last %d day(s). The counter populates as readers visit individual posts."
+msgstr ""
+
+#: includes/theme-options.php:473
+msgid "None"
+msgstr ""
+
+#: template-disclaimer.php:50
+msgid "Not Professional Advice"
+msgstr ""
+
+#: template-disclaimer.php:51
+msgid "Nothing published on UP6 Suara Semasa constitutes legal, financial, medical, investment, or other professional advice. Content covering law, health, financial matters, or similar specialist subjects is provided for general awareness only and should not be acted upon without first seeking guidance from a qualified professional."
+msgstr ""
+
+#: includes/theme-options.php:370
+msgid "Number of categories shown in the sidebar panel."
+msgstr ""
+
+#: includes/theme-options.php:344
+msgid "Number of category sections shown on the homepage."
+msgstr ""
+
+#: includes/theme-options.php:441
+msgid "Number of days to look back when ranking most-viewed posts in the sidebar (1–30). Default: 5."
+msgstr ""
+
+#: includes/theme-options.php:357
+msgid "Number of posts shown in the Terbaharu (Most Recent) list on the homepage. Set to 0 to hide the section entirely. Max 50."
+msgstr ""
+
+#: includes/theme-options.php:378
+msgid "Number of related articles shown at the bottom of each post. Min 3, max 12."
+msgstr ""
+
+#: includes/theme-options.php:362
+msgid "Number of words shown in card excerpts. Excerpts always end on a full word. Min 10, max 80."
+msgstr ""
+
+#: functions.php:1377
+msgid "Nuzul al-Quran"
+msgstr ""
+
+#: template-privacy-policy.php:99
+msgid "Object to the processing of your data for specific purposes"
+msgstr ""
+
+#: template-editorial-policy.php:52
+msgid "Official government, court, or statutory body documents"
+msgstr ""
+
+#: template-editorial-policy.php:72
+msgid "Opinion"
+msgstr ""
+
+#: template-disclaimer.php:54
+msgid "Opinion and Commentary"
+msgstr ""
+
+#: template-editorial-policy.php:74
+msgid "Opinion articles published on UP6 represent the views of the author alone and do not necessarily reflect the editorial position of UP6 Suara Semasa."
+msgstr ""
+
+#: template-disclaimer.php:56
+msgid "Opinion pieces, satire, and editorial commentary are clearly labelled. Readers are encouraged to consider such content in context and to engage with multiple perspectives before forming their own conclusions."
+msgstr ""
+
+#: template-editorial-policy.php:65
+msgid "Opposing views and relevant context will be included in analysis and opinion pieces to ensure readers receive a complete picture."
+msgstr ""
+
+#: includes/theme-options.php:485
+msgid "Optional. Icon appears from this date (inclusive)."
+msgstr ""
+
+#: includes/theme-options.php:490
+msgid "Optional. Icon disappears after this date. Leave both blank to show until manually changed."
+msgstr ""
+
+#: template-corrections.php:47
+msgid "Our Commitment"
+msgstr ""
+
+#: template-meaning-of-6.php:28
+msgid "Our Identity"
+msgstr ""
+
+#: template-meaning-of-6.php:139
+msgid "Our editorial decisions are made by our editorial team. Not by our advertisers. Not by our shareholders. Not by any government body, political party, regulatory authority or law enforcement agency. The moment an outside party begins directing what we publish or suppress, we are no longer a news organisation. We are a mouthpiece. We refuse that role."
+msgstr ""
+
+#: template-about.php:71
+msgid "Ownership"
+msgstr ""
+
+#: includes/theme-options.php:295
+msgid "Ownership or registration declaration shown in the dark band below the footer bar. Supports HTML — you may use <a href=\"...\">, <strong>, <em>, and <br>. Leave blank to hide."
+msgstr ""
+
+#: 404.php:10
+msgid "Page Not Found"
+msgstr ""
+
+#: functions.php:1302
+msgid "Page Template"
+msgstr ""
+
+#: template-meaning-of-6.php:180
+msgid "Pembetulan Tanpa Syarat"
+msgstr ""
+
+#: includes/theme-options.php:275
+msgid "Phone"
+msgstr ""
+
+#: includes/theme-options.php:417
+msgid "Place ID Finder"
+msgstr ""
+
+#: template-corrections.php:30 template-disclaimer.php:29 template-editorial-policy.php:28 template-privacy-policy.php:28
+msgid "Policy &amp; Standards"
+msgstr ""
+
+#: template-editorial-policy.php:130 template-meaning-of-6.php:170
+msgid "Polis Raja di Malaysia"
+msgstr ""
+
+#: includes/theme-options.php:347
+msgid "Posts per category"
+msgstr ""
+
+#: template-meaning-of-6.php:161
+msgid "Power does not like being watched. Uniformed power likes it least of all."
+msgstr ""
+
+#: template-editorial-policy.php:112 template-editorial-policy.php:120
+msgid "Press Freedom"
+msgstr ""
+
+#: functions.php:165
+msgid "Primary Navigation"
+msgstr ""
+
+#: functions.php:1273 functions.php:1318 template-about.php:90
+msgid "Privacy Policy"
+msgstr ""
+
+#: template-privacy-policy.php:62
+msgid "Processing and responding to your enquiries, complaints, or feedback"
+msgstr ""
+
+#: functions.php:448
+msgid "Profile Photo"
+msgstr ""
+
+#: functions.php:1574
+msgid "Published"
+msgstr ""
+
+#: header.php:81
+msgid "RSS Feed"
+msgstr ""
+
+#: template-meaning-of-6.php:213
+msgid "Rakyat"
+msgstr ""
+
+#: functions.php:1374
+msgid "Ramadan"
+msgstr ""
+
+#: template-editorial-policy.php:87
+msgid "Readers may report errors or request corrections through our %s page."
+msgstr ""
+
+#: template-editorial-policy.php:141
+msgid "Readers who are dissatisfied with any UP6 Suara Semasa report may contact the editorial team through our %s page. Every complaint will be taken seriously and will receive a response within three working days."
+msgstr ""
+
+#: template-disclaimer.php:78
+msgid "Readers who identify factual errors are encouraged to bring them to our attention through our %s page. We take correction requests seriously and respond in accordance with our Editorial Policy."
+msgstr ""
+
+#: template-editorial-policy.php:54
+msgid "Recognised international newswires such as Reuters, AFP, and AP"
+msgstr ""
+
+#: single.php:220 single.php:224
+msgid "Related News"
+msgstr ""
+
+#: includes/theme-options.php:376
+msgid "Related News cards"
+msgstr ""
+
+#: template-disclaimer.php:66
+msgid "Reliance on any information contained in any article, report, or commentary"
+msgstr ""
+
+#: template-editorial-policy.php:109
+msgid "Religion and belief — reported with respect and accurate context"
+msgstr ""
+
+#: functions.php:477
+msgid "Remove"
+msgstr ""
+
+#: template-editorial-policy.php:57
+msgid "Reports that rely on a single source will be clearly stated as such. Information that cannot be verified will not be published as fact."
+msgstr ""
+
+#: template-privacy-policy.php:97
+msgid "Request correction of inaccurate or incomplete information"
+msgstr ""
+
+#: includes/theme-options.php:406
+msgid "Requires the Maps Embed API enabled in Google Cloud Console. Restrict the key to this domain."
+msgstr ""
+
+#: functions.php:1607
+msgid "Reset"
+msgstr ""
+
+#: functions.php:1564
+msgid "Reset ALL view counts? This cannot be undone."
+msgstr ""
+
+#: functions.php:1565
+msgid "Reset All Counts"
+msgstr ""
+
+#: functions.php:1662
+msgid "Reset count"
+msgstr ""
+
+#: functions.php:1606 functions.php:1660
+msgid "Reset view count for this post?"
+msgstr ""
+
+#: search.php:20
+msgid "Results for: %s"
+msgstr ""
+
+#: template-corrections.php:90
+msgid "Right of Reply"
+msgstr ""
+
+#: template-meaning-of-6.php:222
+msgid "SUARA. Voice. It was always the right word."
+msgstr ""
+
+#: template-meaning-of-6.php:201
+msgid "Sahih"
+msgstr ""
+
+#: includes/theme-options.php:545
+msgid "Save Changes"
+msgstr ""
+
+#: header.php:59 header.php:72 header.php:114
+msgid "Search"
+msgstr ""
+
+#: functions.php:1001
+msgid "Search FAQ Items"
+msgstr ""
+
+#: search.php:16
+msgid "Search Results"
+msgstr ""
+
+#: header.php:57
+msgid "Search news&hellip;"
+msgstr ""
+
+#: header.php:111
+msgid "Search news…"
+msgstr ""
+
+#: includes/theme-options.php:520
+msgid "Search tags…"
+msgstr ""
+
+#: functions.php:390
+msgid "Search: %s"
+msgstr ""
+
+#: functions.php:166
+msgid "Secondary (Footer Bar)"
+msgstr ""
+
+#: functions.php:497
+msgid "Select Profile Photo"
+msgstr ""
+
+#: template-editorial-policy.php:102
+msgid "Sensitive Content"
+msgstr ""
+
+#: template-editorial-policy.php:67
+msgid "Separation of News and Opinion"
+msgstr ""
+
+#: template-meaning-of-6.php:102
+msgid "Serantau"
+msgstr ""
+
+#: template-privacy-policy.php:81
+msgid "Service providers who assist in the technical operation of this portal, subject to confidentiality agreements"
+msgstr ""
+
+#: includes/theme-options.php:234
+msgid "Settings saved."
+msgstr ""
+
+#: single.php:116
+msgid "Share"
+msgstr ""
+
+#: single.php:130
+msgid "Share on Facebook"
+msgstr ""
+
+#: single.php:145
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: single.php:155
+msgid "Share on Pinterest"
+msgstr ""
+
+#: single.php:150
+msgid "Share on Reddit"
+msgstr ""
+
+#: single.php:125
+msgid "Share on Telegram"
+msgstr ""
+
+#: single.php:140
+msgid "Share on Threads"
+msgstr ""
+
+#: single.php:120
+msgid "Share on WhatsApp"
+msgstr ""
+
+#: single.php:135
+msgid "Share on X"
+msgstr ""
+
+#: single.php:115
+msgid "Share this article"
+msgstr ""
+
+#: single.php:160
+msgid "Share via email"
+msgstr ""
+
+#: template-privacy-policy.php:78
+msgid "Sharing Information with Third Parties"
+msgstr ""
+
+#: functions.php:1140
+msgid "Short explanatory line shown below the headline. Leave blank to omit."
+msgstr ""
+
+#: template-privacy-policy.php:91
+msgid "Should a data breach occur that affects your rights and freedoms, we will take appropriate action and notify affected parties as required by law."
+msgstr ""
+
+#: includes/theme-options.php:478
+msgid "Show a festive icon beside the site logo in the header. Select \"None\" to hide."
+msgstr ""
+
+#: includes/theme-options.php:386
+msgid "Show empty categories"
+msgstr ""
+
+#: includes/theme-options.php:483
+msgid "Show from"
+msgstr ""
+
+#: includes/theme-options.php:488
+msgid "Show until"
+msgstr ""
+
+#: functions.php:1550
+msgid "Showing posts published in the last %1$d day(s) ranked by views. Day range is set in %2$s."
+msgstr ""
+
+#: includes/theme-options.php:264
+msgid "Shown below the brand name in the footer. Supports HTML (e.g. <a>, <strong>, <br>) and WordPress shortcodes."
+msgstr ""
+
+#: includes/theme-options.php:289
+msgid "Shown in the footer bar. Supports HTML — you may use <a href=\"...\">, <strong>, <em>, and <br>. e.g. © 2026 UP6 Suara Semasa. Hak cipta terpelihara."
+msgstr ""
+
+#: sidebar.php:11
+msgid "Sidebar"
+msgstr ""
+
+#: includes/theme-options.php:368
+msgid "Sidebar categories"
+msgstr ""
+
+#: template-corrections.php:65
+msgid "Significant Corrections"
+msgstr ""
+
+#: functions.php:1257
+msgid "Site Editor not available"
+msgstr ""
+
+#: template-meaning-of-6.php:124
+msgid "Six Commitments"
+msgstr ""
+
+#: template-meaning-of-6.php:93
+msgid "Six Lenses"
+msgstr ""
+
+#: template-meaning-of-6.php:58
+msgid "Six Voices"
+msgstr ""
+
+#: header.php:18
+msgid "Skip to content"
+msgstr ""
+
+#: includes/theme-options.php:203
+msgid "Social Media"
+msgstr ""
+
+#: functions.php:256
+msgid "Social Media Links"
+msgstr ""
+
+#: footer.php:64
+msgid "Social media links"
+msgstr ""
+
+#: functions.php:481
+msgid "Square image, at least 200×200 px. Falls back to Gravatar, then initials if not set."
+msgstr ""
+
+#: template-privacy-policy.php:82
+msgid "Statutory authorities where required by law or court order"
+msgstr ""
+
+#: includes/theme-options.php:270
+msgid "Street address shown in the footer contact block. Use line breaks for multi-line addresses."
+msgstr ""
+
+#: template-privacy-policy.php:55
+msgid "Submitted content"
+msgstr ""
+
+#: functions.php:1123
+msgid "Subtitle"
+msgstr ""
+
+#: archive.php:18
+msgid "Tag Archive"
+msgstr ""
+
+#: includes/theme-options.php:507
+msgid "Tags selected here are hidden from all public discovery — queries, widgets, REST API, XML sitemaps, tag clouds, and rendered tag lists. Term IDs are stored, so renaming a tag slug does not break the registry."
+msgstr ""
+
+#: functions.php:1387
+msgid "Tahun Baharu"
+msgstr ""
+
+#: functions.php:1382
+msgid "Tahun Baru Cina"
+msgstr ""
+
+#: functions.php:263 includes/theme-options.php:324
+msgid "Telegram URL"
+msgstr ""
+
+#: template-disclaimer.php:67
+msgid "Temporary unavailability, errors, or interruptions to this portal"
+msgstr ""
+
+#: includes/theme-options.php:355
+msgid "Terbaharu — Most Recent posts"
+msgstr ""
+
+#: functions.php:1384
+msgid "Thaipusam"
+msgstr ""
+
+#: template-meaning-of-6.php:187
+msgid "The 6 in UP6 is not a number."
+msgstr ""
+
+#: template-meaning-of-6.php:39
+msgid "The 6 in UP6 is not incidental. It is a claim."
+msgstr ""
+
+#: template-meaning-of-6.php:125
+msgid "The 6 is also a promise. These are the six things UP6 Suara Semasa commits to on every story, on every day, without exception and without asterisks."
+msgstr ""
+
+#: template-meaning-of-6.php:81
+msgid "The Dissenter"
+msgstr ""
+
+#: includes/theme-options.php:435
+msgid "The Hijri date is calculated astronomically. Malaysia determines the date by moon sighting, which may differ by ±1 day. Set to -1 if the displayed date is one day ahead of the official Malaysian date."
+msgstr ""
+
+#: functions.php:1271 functions.php:1316
+msgid "The Meaning of 6"
+msgstr ""
+
+#: template-meaning-of-6.php:77
+msgid "The Minority"
+msgstr ""
+
+#: template-meaning-of-6.php:85
+msgid "The Ordinary Person"
+msgstr ""
+
+#: template-meaning-of-6.php:186
+msgid "The Position"
+msgstr ""
+
+#: template-meaning-of-6.php:65
+msgid "The Rural Reader"
+msgstr ""
+
+#: template-meaning-of-6.php:42
+msgid "The Sixth Estate"
+msgstr ""
+
+#: template-meaning-of-6.php:44
+msgid "The Sixth Estate is what comes after the noise. It is journalism that is community-grounded rather than commercially captured. Language-first rather than language-last. Accountable to its readers rather than to its owners, its advertisers, or the government of the day. It does not wait for a press accreditation to tell the truth. It does not moderate its conclusions to preserve access to those in power."
+msgstr ""
+
+#: template-about.php:56
+msgid "The UP6 editorial approach prioritises factual accuracy, contextual clarity and precise use of language. Every report is prepared from verified sources and thorough research so that readers obtain a comprehensive picture of an event or current issue. Focus is given to domestic developments in Malaysia alongside global coverage that has a direct or indirect impact on this region."
+msgstr ""
+
+#: template-corrections.php:76
+msgid "The URL or title of the article in question"
+msgstr ""
+
+#: template-meaning-of-6.php:69
+msgid "The Urban Working Class"
+msgstr ""
+
+#: template-meaning-of-6.php:73
+msgid "The Young Malaysian"
+msgstr ""
+
+#: template-meaning-of-6.php:82
+msgid "The activist, the whistleblower, the academic whose research produces uncomfortable findings, the journalist who published the story that required courage — whose criticism of power is framed as disloyalty, whose motives are questioned before their evidence is examined, and who discovers that in Malaysia, what you say matters less than who it inconveniences."
+msgstr ""
+
+#: template-corrections.php:68
+msgid "The affected party will be notified directly where possible"
+msgstr ""
+
+#: 404.php:11
+msgid "The article or page you were looking for could not be found."
+msgstr ""
+
+#: template-corrections.php:70
+msgid "The correction will be noted prominently rather than appended quietly"
+msgstr ""
+
+#: template-editorial-policy.php:80
+msgid "The date and details of updates will be recorded"
+msgstr ""
+
+#: template-corrections.php:78
+msgid "The evidence or source you are relying on to dispute the claim"
+msgstr ""
+
+#: template-corrections.php:94
+msgid "The final decision on whether a correction is warranted rests with the senior editorial team. UP6 Suara Semasa does not accept external direction on corrections from advertisers, government bodies, or other commercial or institutional interests. Pressure to correct or retract content that is accurate will be resisted and, where appropriate, reported."
+msgstr ""
+
+#: template-meaning-of-6.php:119
+msgid "The human behind every story. The person the statistic describes. The community the policy erases. The name that becomes a number in a government report. Manusia coverage is the reminder that journalism is ultimately about people — not events, not institutions, not quarterly figures — and that the measure of a report is whether the person it describes would recognise themselves in it."
+msgstr ""
+
+#: template-editorial-policy.php:96
+msgid "The information provided is of significant public interest"
+msgstr ""
+
+#: template-disclaimer.php:47
+msgid "The information published on UP6 Suara Semasa is provided in good faith for general informational and journalistic purposes only. While Langgam Fikir Enterprise makes every reasonable effort to ensure that content is accurate, timely, and sourced responsibly, we make no representations or warranties of any kind, express or implied, as to the completeness, accuracy, reliability, or suitability of any article, report, or other content appearing on this portal."
+msgstr ""
+
+#: template-meaning-of-6.php:197
+msgid "The name was never just a name."
+msgstr ""
+
+#: includes/theme-options.php:400
+msgid "The numeric ID of your CF7 form. Find it in Contact → Contact Forms — the ID appears in the shortcode column. Set to 0 if not yet configured."
+msgstr ""
+
+#: template-about.php:83
+msgid "The portal operates entirely digitally with an emphasis on fast access, high readability and consistent delivery of information to readers in Malaysia and internationally. UP6 Suara Semasa is committed to operating free of interference from any government body, law enforcement agency, regulatory authority or political entity — editorial decisions rest solely with the editorial team."
+msgstr ""
+
+#: template-meaning-of-6.php:43
+msgid "The press has long been called the Fourth Estate — the informal check on the three formal branches of government. The Fifth Estate emerged with the internet: bloggers, citizen journalists, social networks that broke the monopoly of the masthead and gave the unaccredited a platform."
+msgstr ""
+
+#: template-meaning-of-6.php:61
+msgid "The six voices are not six named individuals. They are the six communities whose concerns too often find no reflection in the national media:"
+msgstr ""
+
+#: template-editorial-policy.php:97
+msgid "The source faces genuine risk if their identity is revealed"
+msgstr ""
+
+#: template-corrections.php:77
+msgid "The specific claim or passage you believe is incorrect"
+msgstr ""
+
+#: template-meaning-of-6.php:169
+msgid "The structural relationship between the Malaysian police force and political power in this country has been examined with rigour and without illusion. We commend that examination to our readers: %s — the title alone says what we mean."
+msgstr ""
+
+#: template-editorial-policy.php:100
+msgid "The use of anonymous sources will be stated in the article, and the reasons for their use will be carefully considered by the editor."
+msgstr ""
+
+#: includes/theme-options.php:68
+msgid "Theme Options"
+msgstr ""
+
+#: template-contact.php:126 template-contact.php:165
+msgid "Theme Options → Contact"
+msgstr ""
+
+#: functions.php:1552
+msgid "Theme Options → General"
+msgstr ""
+
+#: template-disclaimer.php:89
+msgid "This disclaimer is governed by and construed in accordance with the laws of Malaysia. Any dispute arising from or in connection with this disclaimer or the use of this portal shall be subject to the exclusive jurisdiction of the Malaysian courts."
+msgstr ""
+
+#: includes/theme-options.php:319
+msgid "Threads URL"
+msgstr ""
+
+#: functions.php:1572
+msgid "Title"
+msgstr ""
+
+#: template-privacy-policy.php:105
+msgid "To make any request regarding your personal data, please contact us through our %s page. We will process your request within 21 days as stipulated by PDPA."
+msgstr ""
+
+#: template-disclaimer.php:63
+msgid "To the fullest extent permitted by applicable Malaysian law, Langgam Fikir Enterprise, its directors, editors, journalists, and contributors shall not be liable for any direct, indirect, incidental, consequential, or special damages arising from:"
+msgstr ""
+
+#: header.php:89 header.php:90
+msgid "Toggle dark mode"
+msgstr ""
+
+#: header.php:30
+msgid "Toggle navigation"
+msgstr ""
+
+#: single.php:191
+msgid "Topic Tags"
+msgstr ""
+
+#: template-corrections.php:57
+msgid "Translation or language errors"
+msgstr ""
+
+#: functions.php:445
+msgid "UP6 Author Avatar"
+msgstr ""
+
+#: template-editorial-policy.php:77
+msgid "UP6 Suara Semasa acknowledges that errors may occur and is committed to correcting them promptly and transparently."
+msgstr ""
+
+#: template-disclaimer.php:59
+msgid "UP6 Suara Semasa articles may contain hyperlinks to third-party websites. These links are provided as a convenience and for informational purposes only. The inclusion of any link does not imply endorsement, verification, or sponsorship of the linked website or its contents by Langgam Fikir Enterprise."
+msgstr ""
+
+#: template-editorial-policy.php:113 template-editorial-policy.php:121
+msgid "UP6 Suara Semasa asserts its right to report independently of interference from any government body, law enforcement agency, regulatory authority, or political entity. Editorial decisions are made solely by the editorial team and are not subject to direction, suppression, or prior restraint by any external party."
+msgstr ""
+
+#: template-meaning-of-6.php:45
+msgid "UP6 Suara Semasa claims that ground."
+msgstr ""
+
+#: template-editorial-policy.php:68
+msgid "UP6 Suara Semasa clearly distinguishes between news reporting and opinion content:"
+msgstr ""
+
+#: template-editorial-policy.php:103
+msgid "UP6 Suara Semasa complies with the Communications and Multimedia Act 1998, the Sedition Act 1948, and other applicable Malaysian legislation in all publishing matters."
+msgstr ""
+
+#: template-privacy-policy.php:79
+msgid "UP6 Suara Semasa does not sell, rent, or trade your personal information to any third party. Your information may be shared only in the following circumstances:"
+msgstr ""
+
+#: template-about.php:42
+msgid "UP6 Suara Semasa is a digital news portal focusing on coverage of current affairs in %1$s and %2$s developments, encompassing %3$s, %4$s, technology, %5$s, religion, %6$s and %7$s. The portal was established to provide timely information in %8$s with clear, organised and accessible delivery to readers of all backgrounds."
+msgstr ""
+
+#: template-disclaimer.php:52
+msgid "UP6 Suara Semasa is a news and commentary portal, not a professional advisory service. Readers who require advice on specific personal circumstances should consult the appropriate licensed professional."
+msgstr ""
+
+#: template-meaning-of-6.php:90
+msgid "UP6 Suara Semasa is built for all six."
+msgstr ""
+
+#: template-corrections.php:48
+msgid "UP6 Suara Semasa is committed to correcting errors promptly, transparently, and without equivocation. We believe that the credibility of a news organisation rests not on the absence of mistakes, but on how honestly it handles them."
+msgstr ""
+
+#: template-privacy-policy.php:115
+msgid "UP6 Suara Semasa is not directed at children under the age of 18. We do not knowingly collect personal information from children. If you believe we have done so inadvertently, please contact us for immediate deletion."
+msgstr ""
+
+#: template-about.php:76
+msgid "UP6 Suara Semasa is owned and operated by %s, a publishing and digital content entity focused on the production of original works, current affairs analysis and the development of intellectual discourse in Bahasa Melayu."
+msgstr ""
+
+#: template-corrections.php:52
+msgid "UP6 Suara Semasa issues corrections for the following categories of error:"
+msgstr ""
+
+#: template-editorial-policy.php:60
+msgid "UP6 Suara Semasa maintains a strict separation between editorial operations and commercial interests. Advertisers, sponsors, and owners have no authority over coverage decisions, headline selection, or article content."
+msgstr ""
+
+#: template-editorial-policy.php:46
+msgid "UP6 Suara Semasa operates on a commitment to accuracy, honesty, and transparency in every aspect of its reporting. This editorial policy sets out the standards applied by all journalists, editors, and contributors working under the UP6 name."
+msgstr ""
+
+#: template-editorial-policy.php:94
+msgid "UP6 Suara Semasa prioritises sources willing to be identified openly. Anonymous sources are accepted only when:"
+msgstr ""
+
+#: template-privacy-policy.php:70
+msgid "UP6 Suara Semasa uses first-party and third-party cookies for the following purposes:"
+msgstr ""
+
+#: template-meaning-of-6.php:162
+msgid "UP6 Suara Semasa will report on the conduct of the police, the judiciary, the military and the apparatus of the state with the same scrutiny we apply to any other institution — without deference, without prior consultation, and without adjusting our conclusions to suit those who carry badges or batons. The uniform is not a shield from accountability. It is, if anything, a reason to look harder."
+msgstr ""
+
+#: template-privacy-policy.php:46
+msgid "UP6 Suara Semasa, owned and operated by Langgam Fikir Enterprise, is committed to protecting your personal information. This Privacy Policy explains how we collect, use, store, and disclose personal data in accordance with the Personal Data Protection Act 2010 (PDPA) of Malaysia."
+msgstr ""
+
+#: includes/theme-options.php:67
+msgid "UP6 Theme Options"
+msgstr ""
+
+#: functions.php:1538
+msgid "UP6 View Stats"
+msgstr ""
+
+#: template-meaning-of-6.php:94
+msgid "UP6 does not just cover stories. It frames them — through six distinct angles that together constitute a complete picture of the world as it affects Malaysians. Every story that arrives in our newsroom is interrogated through at least one of these lenses. Most require several."
+msgstr ""
+
+#: template-editorial-policy.php:64
+msgid "UP6 endeavours to provide right of reply to all parties mentioned critically in any report. Parties approached for comment will be given reasonable time to respond before publication. If a response is not obtained, this will be explicitly stated in the article."
+msgstr ""
+
+#: template-meaning-of-6.php:60
+msgid "UP6 exists in opposition to that narrowing. Not through confrontation for its own sake — confrontation without journalism is just noise — but through the sustained, unglamorous act of publishing: consistently, independently, in the language of the majority, what the concentrated press would rather leave unreported."
+msgstr ""
+
+#: template-editorial-policy.php:61
+msgid "UP6 journalists and editors do not accept payment, gifts, or benefits from any party that may create a conflict of interest. Where a conflict of interest arises or is identified, it will be disclosed to readers or the journalist concerned will be recused from that coverage."
+msgstr ""
+
+#: functions.php:1258
+msgid "UP6 uses classic PHP templates and does not use the block-based Site Editor. Use the Customizer (here) to edit site identity, colours, menus, and footer details. To edit page content, use the standard post/page editor."
+msgstr ""
+
+#: template-meaning-of-6.php:38
+msgid "UP6 was built on a different premise: that good journalism is not a single voice amplified, but multiple lenses applied — with rigour, in your language, without permission from power."
+msgstr ""
+
+#: template-disclaimer.php:68
+msgid "Unauthorised access to or alteration of your data or transmissions"
+msgstr ""
+
+#: includes/theme-options.php:536
+msgid "Unchecking all tags and saving will clear the registry entirely."
+msgstr ""
+
+#: template-meaning-of-6.php:206
+msgid "Uncompromised. Our editorial decisions belong to us alone — not to our advertisers, not to our owners, not to anyone who carries a badge or a portfolio."
+msgstr ""
+
+#: template-privacy-policy.php:94
+msgid "Under the Personal Data Protection Act 2010, you have the right to:"
+msgstr ""
+
+#: single.php:92
+msgid "Updated %s"
+msgstr ""
+
+#: functions.php:473 functions.php:519
+msgid "Upload Photo"
+msgstr ""
+
+#: template-privacy-policy.php:53
+msgid "Usage data"
+msgstr ""
+
+#: functions.php:498
+msgid "Use as profile photo"
+msgstr ""
+
+#: template-editorial-policy.php:93
+msgid "Use of Anonymous Sources"
+msgstr ""
+
+#: template-meaning-of-6.php:205
+msgid "Utuh"
+msgstr ""
+
+#: template-editorial-policy.php:107
+msgid "Victims of sexual crime, children, and vulnerable individuals"
+msgstr ""
+
+#: index.php:112
+msgid "View All"
+msgstr ""
+
+#: functions.php:1636
+msgid "View Count"
+msgstr ""
+
+#: functions.php:1000
+msgid "View FAQ Item"
+msgstr ""
+
+#: functions.php:1473 functions.php:1474
+msgid "View Stats"
+msgstr ""
+
+#: functions.php:1543
+msgid "View count reset for that post."
+msgstr ""
+
+#: functions.php:1685
+msgid "View count reset to zero."
+msgstr ""
+
+#: functions.php:1593
+msgid "View post ↗"
+msgstr ""
+
+#: functions.php:1575
+msgid "Views"
+msgstr ""
+
+#: template-meaning-of-6.php:51
+msgid "We are also aware that independent journalism in Malaysia operates under the shadow of laws designed less to protect the public than to protect power from scrutiny — among them Section 233 of the Communications and Multimedia Act 1998, known in practice, and with good reason, as the %s. We publish anyway. A law that exists to punish inconvenient expression is not a law that deserves our silence. It is a law that deserves to be named."
+msgstr ""
+
+#: template-meaning-of-6.php:46
+msgid "We are not neutral — neutrality is a convenient fiction used to avoid accountability. We are independent. We operate in Bahasa Melayu because that is where the conversation that matters to us lives, and because language is never merely a vehicle: it is a political choice. We answer to our readers. We are the Sixth Estate."
+msgstr ""
+
+#: template-editorial-policy.php:47
+msgid "We believe that the responsibility of media is not merely to convey information, but to build public trust through responsible journalistic practice."
+msgstr ""
+
+#: template-meaning-of-6.php:191
+msgid "We did not build UP6 Suara Semasa to be comfortable. We built it to be useful. We built it to be honest. We built it to still be standing — and still publishing — when the pressure comes."
+msgstr ""
+
+#: template-meaning-of-6.php:164
+msgid "We do not accept the premise that a free press owes the state the benefit of the doubt. The state has lawyers, spokespersons, press secretaries and the full apparatus of official narrative. It does not need our help. The public, which has none of those things, does."
+msgstr ""
+
+#: template-privacy-policy.php:57
+msgid "We do not collect identity card numbers, bank account details, or other sensitive information without your explicit consent."
+msgstr ""
+
+#: template-corrections.php:59
+msgid "We do not issue corrections for matters of editorial judgement, word choice, or differences of opinion. If a report is disputed, we will consider the dispute on its merits and correct only where the record is demonstrably wrong."
+msgstr ""
+
+#: template-corrections.php:63
+msgid "We do not scrub errors from the public record. The correction notice remains visible permanently alongside the corrected content, so that readers who encountered the original version are aware that it has been updated."
+msgstr ""
+
+#: template-privacy-policy.php:67
+msgid "We do not use your information for direct marketing without your prior consent."
+msgstr ""
+
+#: template-editorial-policy.php:104
+msgid "We exercise particular care when reporting on:"
+msgstr ""
+
+#: template-meaning-of-6.php:146
+msgid "We give the subjects of our reporting the right of reply. We present competing accounts where they exist and clearly label them as such. We distinguish between what is established and what is alleged. We do not use journalism as a weapon against individuals, and we do not use it as a shield for institutions. Fairness is a method, not a conclusion — and it is never an excuse for cowardice."
+msgstr ""
+
+#: template-disclaimer.php:60
+msgid "We have no control over the nature, content, or availability of external websites. We accept no responsibility for any loss or inconvenience that may arise from your use of third-party content or websites reached through links on this portal."
+msgstr ""
+
+#: template-about.php:57
+msgid "We hold ourselves to the standards set out in our Editorial Policy — accuracy, fairness, editorial independence and transparency in the use of sources. Corrections are published promptly and without reservation. Readers who identify errors are encouraged to write to us."
+msgstr ""
+
+#: template-privacy-policy.php:50
+msgid "We may collect the following information when you interact with UP6 Suara Semasa:"
+msgstr ""
+
+#: template-meaning-of-6.php:153
+msgid "We name our sources where we can. Where we cannot, we explain why — not with a vague appeal to confidentiality, but with a specific account of the editorial judgement made. We do not hide our methods, our funding, our ownership or our limitations. Readers who disagree with our judgements are entitled to the information needed to challenge them."
+msgstr ""
+
+#: template-editorial-policy.php:115 template-editorial-policy.php:123
+msgid "We recognise that a free press is not a courtesy extended by those in power — it is a right exercised in the public interest, regardless of whether that exercise is convenient for the powerful."
+msgstr ""
+
+#: template-privacy-policy.php:112
+msgid "We retain your personal information only for as long as necessary to fulfil the purposes stated in this policy, or as required by law. Anonymous analytics data is retained for a maximum period of 26 months."
+msgstr ""
+
+#: template-privacy-policy.php:90
+msgid "We take reasonable technical and organisational measures to protect your personal information from unauthorised access, loss, or disclosure. However, no data transmission over the internet can be guaranteed as fully secure."
+msgstr ""
+
+#: template-meaning-of-6.php:202
+msgid "We verify before we publish. Our word to the reader is the only currency we have, and we do not spend it carelessly."
+msgstr ""
+
+#: template-meaning-of-6.php:132
+msgid "We verify before we publish. We do not treat speed as an excuse for error, or traffic as a justification for speculation. Every claim that carries our name has been interrogated before it is printed — because our word to the reader is the only currency we have, and we do not spend it carelessly."
+msgstr ""
+
+#: template-contact.php:67
+msgid "We welcome questions, tips, corrections, and feedback from readers, sources, and the public. The editorial team reads every message and will respond within three working days."
+msgstr ""
+
+#: template-meaning-of-6.php:163
+msgid "We will name custodial deaths. We will report unlawful detention, the abuse of remand powers, and the use of force against civilians as the serious matters they are — not as isolated incidents, not as procedural anomalies, but as events that demand explanation from those responsible. We will not deploy the word alleged to protect institutions that have the full resources of the state at their disposal. We will not kill a story because someone in authority found it inconvenient."
+msgstr ""
+
+#: template-editorial-policy.php:114 template-editorial-policy.php:122
+msgid "We will not reveal the identity of confidential sources under pressure from any authority. Journalists working under the UP6 name have the right to protect their sources, and UP6 will provide reasonable support to any journalist who faces legal or institutional pressure as a result of their work for this publication."
+msgstr ""
+
+#: index.php:63
+msgid "Welcome"
+msgstr ""
+
+#: index.php:65
+msgid "Welcome to UP6"
+msgstr ""
+
+#: template-corrections.php:51
+msgid "What We Correct"
+msgstr ""
+
+#: template-meaning-of-6.php:103
+msgid "What connects us to the region. Malaysia does not exist in isolation from ASEAN, from the South China Sea, from the shifting geometries of regional power and the quiet rearrangements of influence that never make the front page. Serantau coverage traces those connections — the ones that matter before anyone admits they matter."
+msgstr ""
+
+#: template-meaning-of-6.php:111
+msgid "What moves money and lives. From Bank Negara policy to ringgit volatility to the informal economy that most financial journalism ignores because its subjects do not read Bloomberg. Economic coverage at UP6 is written for readers, not for traders. The question we ask is not what this means for the market. It is what this means for you."
+msgstr ""
+
+#: template-meaning-of-6.php:107
+msgid "What reaches us from beyond. Geopolitics, conflict, climate, international markets — the world arrives on our doorstep whether we report it or not. We report it, and we report it through Malaysian eyes: not as spectators to history but as people with a stake in how it unfolds."
+msgstr ""
+
+#: includes/theme-options.php:329
+msgid "WhatsApp URL"
+msgstr ""
+
+#: template-corrections.php:49
+msgid "When an error is identified — whether by our own team or brought to our attention by a reader — we will correct it. We will not quietly delete or rewrite content. We will not obscure the fact that a correction was made. We will say what was wrong, what the correct information is, and when the correction was published."
+msgstr ""
+
+#: template-meaning-of-6.php:181
+msgid "When we are wrong — and we will be wrong, because journalism is a human enterprise — we say so. At the top of the article. In plain language. With the corrected version clearly stated. No buried footnotes. No quiet edits in the dead of night. No passive-voice non-apologies that acknowledge the error while avoiding the embarrassment. Our credibility is not built by never being wrong. It is built by how we behave when we are."
+msgstr ""
+
+#: template-corrections.php:66
+msgid "Where a correction is significant — involving a material factual error, an incorrect identity, a figure with public consequence, or content that may have caused harm — the correction will be handled with additional care:"
+msgstr ""
+
+#: template-disclaimer.php:73
+msgid "Where an article has been materially updated after initial publication, this will be noted within the article. The original publication date and the date of update are recorded for transparency."
+msgstr ""
+
+#: template-about.php:37
+msgid "Who We Are"
+msgstr ""
+
+#: template-meaning-of-6.php:66
+msgid "Who opens the paper and does not see their reality — the longhouse with no clean water, the padi farmer whose subsidy was quietly restructured, the fishing community whose sea is being reclaimed — because it does not make for comfortable reading in a lifestyle supplement."
+msgstr ""
+
+#: template-meaning-of-6.php:86
+msgid "Who wants, without ideology or agenda, to know what is actually true — what the government actually decided, what the court actually found, what the money was actually spent on — and who deserves journalism that respects that want enough to answer it honestly."
+msgstr ""
+
+#: template-meaning-of-6.php:70
+msgid "Whose economic precarity is abstracted into headline GDP figures and investment corridor announcements, while the actual experience of not being able to afford rent in the city where you work goes unreported because it implies a question no one in power wants asked."
+msgstr ""
+
+#: template-meaning-of-6.php:74
+msgid "Whose political consciousness is dismissed as inexperience, whose anger at inherited dysfunction is reframed as ingratitude, and whose engagement with public life is simultaneously demanded and punished when it produces inconvenient conclusions."
+msgstr ""
+
+#: functions.php:186
+msgid "Widgets here appear on posts and archives. Uses only core WordPress widgets — no plugins needed."
+msgstr ""
+
+#: template-privacy-policy.php:98
+msgid "Withdraw your consent at any time, though this may affect certain services"
+msgstr ""
+
+#: functions.php:262 includes/theme-options.php:309
+msgid "X (Twitter) URL"
+msgstr ""
+
+#: archive.php:21
+msgid "Yearly Archive"
+msgstr ""
+
+#: template-privacy-policy.php:76
+msgid "You may control or delete cookies through your browser settings. Please note that disabling cookies may affect certain functions of this portal."
+msgstr ""
+
+#: template-privacy-policy.php:93
+msgid "Your Rights Under PDPA"
+msgstr ""
+
+#: template-privacy-policy.php:73
+msgid "collect anonymous usage statistics via services such as Google Analytics"
+msgstr ""
+
+#: template-privacy-policy.php:55
+msgid "comments, feedback, or submissions you send through this portal"
+msgstr ""
+
+#: includes/theme-options.php:277
+msgid "e.g. +60 3-1234 5678"
+msgstr ""
+
+#: includes/theme-options.php:282
+msgid "e.g. editor@up6.org"
+msgstr ""
+
+#: template-about.php:46
+msgid "economics"
+msgstr ""
+
+#: template-editorial-policy.php:71
+msgid "explains context and implications based on available facts"
+msgstr ""
+
+#: template-editorial-policy.php:72
+msgid "expresses a position or editorial viewpoint, clearly labelled as such"
+msgstr ""
+
+#: template-about.php:49
+msgid "financial markets"
+msgstr ""
+
+#: template-corrections.php:54
+msgid "incorrect names, dates, figures, or descriptions of events"
+msgstr ""
+
+#: template-about.php:44
+msgid "international"
+msgstr ""
+
+#: template-about.php:65
+msgid "literary content"
+msgstr ""
+
+#: single.php:103
+msgid "minit"
+msgstr ""
+
+#: includes/theme-options.php:458
+msgid "noindex search results and policy pages"
+msgstr ""
+
+#: template-about.php:66
+msgid "poetry"
+msgstr ""
+
+#: template-about.php:45
+msgid "politics"
+msgstr ""
+
+#: template-privacy-policy.php:72
+msgid "retain your preferences such as display settings and login sessions"
+msgstr ""
+
+#: functions.php:1077 functions.php:1083
+msgid "search"
+msgstr ""
+
+#: template-privacy-policy.php:74
+msgid "set automatically when you view videos or social content embedded within articles"
+msgstr ""
+
+#: template-privacy-policy.php:54
+msgid "small text files stored on your device to improve your browsing experience"
+msgstr ""
+
+#: template-about.php:47
+msgid "society"
+msgstr ""
+
+#: template-about.php:48
+msgid "sports"
+msgstr ""
+
+#: functions.php:1656
+msgid "total views recorded"
+msgstr ""
+
+#: sidebar.php:115
+msgid "views"
+msgstr ""
+
+#: template-corrections.php:57
+msgid "where a Malay or English rendering introduced inaccuracy into the substance of a report"
+msgstr ""
+
+#: template-corrections.php:56
+msgid "where a quote or claim was incorrectly attributed to a person or source"
+msgstr ""
+
+#: template-corrections.php:55
+msgid "where the framing of a fact created a materially misleading impression"
+msgstr ""
+
+#: template-privacy-policy.php:52
+msgid "your name and email address provided voluntarily through contact forms or comments"
+msgstr ""
+
+#: 404.php:13 search.php:92
+msgid "← Back to Home"
+msgstr ""
+
+#: comments.php:40
+msgid "← Older Comments"
+msgstr ""
+
+#: comments.php:22
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: archive.php:61
+msgid "%s Article"
+msgid_plural "%s Articles"
+msgstr[0] ""
+msgstr[1] ""
+
+#: search.php:29
+msgid "%s article found"
+msgid_plural "%s articles found"
+msgstr[0] ""
+msgstr[1] ""
+
+#: sidebar.php:90
+msgid "Most Read Last %d Day"
+msgid_plural "Most Read Last %d Days"
+msgstr[0] ""
+msgstr[1] ""
+
+
+#. Security tab — theme-options.php
+#: includes/theme-options.php
+msgid "Security"
+msgstr ""
+
+#. Security tab — JS localization
+#: includes/theme-options.php
+msgid "Scanning…"
+msgstr ""
+
+#: includes/theme-options.php
+msgid "Regenerating…"
+msgstr ""
+
+#: includes/theme-options.php
+msgid "Error — please try again."
+msgstr ""
+
+#. Security scanner — admin notice
+#: includes/theme-security-scanner.php
+msgid "Theme Activation Blocked"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "The theme \"%1$s\" was prevented from activating — %2$d malicious pattern(s) across %3$d file(s)."
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "View details"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "File"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "Line"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "Detection"
+msgstr ""
+
+#. Security tab — status cards
+#: includes/theme-security-scanner.php
+msgid "Active"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "Scanner Status"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "Installed Themes"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "Flagged Themes"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "Patterns"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "Detection Rules"
+msgstr ""
+
+#. Security tab — manual scan
+#: includes/theme-security-scanner.php
+msgid "Manual Scan"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "Scan all installed themes for malicious code and verify UP6 file integrity."
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "Scan Now"
+msgstr ""
+
+#. Security tab — checksum integrity
+#: includes/theme-security-scanner.php
+msgid "UP6 File Integrity"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "No baseline checksum exists yet. Click below to generate one."
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "All files match baseline"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "Changes detected since baseline"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "Modified:"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "New files:"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "Missing:"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "Baseline: %1$s (v%2$s)"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "Regenerate Baseline"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "Regenerate after intentional theme updates. Creates a new SHA-256 hash baseline of all UP6 PHP files."
+msgstr ""
+
+#. Security tab — scan log
+#: includes/theme-security-scanner.php
+msgid "Scan Log"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "No events recorded yet. Blocked activations, uploads, and manual scans will appear here."
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "Time"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "Theme"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "Action"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "Hits"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "User"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "Activation blocked"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "Upload deleted"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "Manual scan"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "Showing last %d events."
+msgstr ""
+
+#. Security scanner — flag UI
+#: includes/theme-security-scanner.php
+msgid "MALICIOUS CODE DETECTED"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "This theme has been flagged as malicious and cannot be activated."
+msgstr ""
+
+#. Security scanner — upload blocker
+#: includes/theme-security-scanner.php
+msgid "Theme \"%1$s\" was deleted — the UP6 security scanner detected %2$d malicious code pattern(s)."
+msgstr ""
+
+#. Security scanner — email alert
+#: includes/theme-security-scanner.php
+msgid "[%1$s] Theme %2$s blocked by security scanner"
+msgstr ""
+
+#: includes/theme-security-scanner.php
+msgid "Permission denied."
+msgstr ""

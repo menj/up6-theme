@@ -1,0 +1,71 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <!-- Malaysian flag backdrop — slightly angled, behind towers -->
+  <path d="M2 3h20c.3 0 .5.2.5.5v12c0 .3-.2.5-.5.5H2c-.3 0-.5-.2-.5-.5V3.5c0-.3.2-.5.5-.5z" fill="#fff" opacity=".35"/>
+  <!-- Red stripes (muted as backdrop) -->
+  <rect x="1.5" y="3" width="21" height="1.1" fill="#cc0001" opacity=".3"/>
+  <rect x="1.5" y="5.2" width="21" height="1.1" fill="#cc0001" opacity=".3"/>
+  <rect x="1.5" y="7.4" width="21" height="1.1" fill="#cc0001" opacity=".3"/>
+  <rect x="1.5" y="9.6" width="21" height="1.1" fill="#cc0001" opacity=".3"/>
+  <rect x="1.5" y="11.8" width="21" height="1.1" fill="#cc0001" opacity=".3"/>
+  <rect x="1.5" y="14" width="21" height="1.5" fill="#cc0001" opacity=".3"/>
+  <!-- Canton (muted) -->
+  <rect x="1.5" y="3" width="10" height="4.5" fill="#010066" opacity=".3"/>
+  <!-- Crescent and star (muted) -->
+  <circle cx="5" cy="5.2" r="1.5" fill="#fc0" opacity=".35"/>
+  <circle cx="5.4" cy="5" r="1.2" fill="#010066" opacity=".35"/>
+  <polygon points="8,5.2 8.2,4.7 8.5,5.2 9,5 8.6,5.4 8.9,5.8 8.4,5.6 8.2,6 8,5.6 7.5,5.8 7.8,5.4 7.5,5" fill="#fc0" opacity=".35"/>
+
+  <!-- ═══ PETRONAS TWIN TOWERS ═══ -->
+  <!-- Left tower -->
+  <rect x="5.5" y="6" width="4.5" height="15" fill="#7a9bb5"/>
+  <rect x="5.8" y="6" width="1" height="15" fill="#90b4c8" opacity=".4"/>
+  <rect x="8.2" y="6" width="1" height="15" fill="#90b4c8" opacity=".4"/>
+  <!-- Left tower stepped crown -->
+  <rect x="6" y="4.5" width="3.5" height="1.5" fill="#7a9bb5"/>
+  <rect x="6.5" y="3.5" width="2.5" height="1" fill="#7a9bb5"/>
+  <rect x="7" y="2.8" width="1.5" height=".7" fill="#7a9bb5"/>
+  <!-- Left spire -->
+  <line x1="7.75" y1="1" x2="7.75" y2="2.8" stroke="#90b4c8" stroke-width=".6" stroke-linecap="round"/>
+  <circle cx="7.75" cy="1" r=".35" fill="#d4a017"/>
+  <!-- Left tower window bands -->
+  <line x1="5.5" y1="8" x2="10" y2="8" stroke="#5a7a90" stroke-width=".25"/>
+  <line x1="5.5" y1="10" x2="10" y2="10" stroke="#5a7a90" stroke-width=".25"/>
+  <line x1="5.5" y1="12" x2="10" y2="12" stroke="#5a7a90" stroke-width=".25"/>
+  <line x1="5.5" y1="14" x2="10" y2="14" stroke="#5a7a90" stroke-width=".25"/>
+  <line x1="5.5" y1="16" x2="10" y2="16" stroke="#5a7a90" stroke-width=".25"/>
+  <line x1="5.5" y1="18" x2="10" y2="18" stroke="#5a7a90" stroke-width=".25"/>
+
+  <!-- Right tower -->
+  <rect x="14" y="6" width="4.5" height="15" fill="#7a9bb5"/>
+  <rect x="14.3" y="6" width="1" height="15" fill="#90b4c8" opacity=".4"/>
+  <rect x="16.7" y="6" width="1" height="15" fill="#90b4c8" opacity=".4"/>
+  <!-- Right tower stepped crown -->
+  <rect x="14.5" y="4.5" width="3.5" height="1.5" fill="#7a9bb5"/>
+  <rect x="15" y="3.5" width="2.5" height="1" fill="#7a9bb5"/>
+  <rect x="15.5" y="2.8" width="1.5" height=".7" fill="#7a9bb5"/>
+  <!-- Right spire -->
+  <line x1="16.25" y1="1" x2="16.25" y2="2.8" stroke="#90b4c8" stroke-width=".6" stroke-linecap="round"/>
+  <circle cx="16.25" cy="1" r=".35" fill="#d4a017"/>
+  <!-- Right tower window bands -->
+  <line x1="14" y1="8" x2="18.5" y2="8" stroke="#5a7a90" stroke-width=".25"/>
+  <line x1="14" y1="10" x2="18.5" y2="10" stroke="#5a7a90" stroke-width=".25"/>
+  <line x1="14" y1="12" x2="18.5" y2="12" stroke="#5a7a90" stroke-width=".25"/>
+  <line x1="14" y1="14" x2="18.5" y2="14" stroke="#5a7a90" stroke-width=".25"/>
+  <line x1="14" y1="16" x2="18.5" y2="16" stroke="#5a7a90" stroke-width=".25"/>
+  <line x1="14" y1="18" x2="18.5" y2="18" stroke="#5a7a90" stroke-width=".25"/>
+
+  <!-- Skybridge connecting the towers -->
+  <rect x="10" y="11.5" width="4" height="1.5" rx=".3" fill="#6a8da5"/>
+  <!-- Skybridge supports -->
+  <line x1="10.5" y1="13" x2="10.5" y2="14.5" stroke="#6a8da5" stroke-width=".4"/>
+  <line x1="13.5" y1="13" x2="13.5" y2="14.5" stroke="#6a8da5" stroke-width=".4"/>
+
+  <!-- Tower edge highlights -->
+  <line x1="5.5" y1="6" x2="5.5" y2="21" stroke="#90b4c8" stroke-width=".3" opacity=".5"/>
+  <line x1="10" y1="6" x2="10" y2="21" stroke="#5a7a90" stroke-width=".3" opacity=".5"/>
+  <line x1="14" y1="6" x2="14" y2="21" stroke="#90b4c8" stroke-width=".3" opacity=".5"/>
+  <line x1="18.5" y1="6" x2="18.5" y2="21" stroke="#5a7a90" stroke-width=".3" opacity=".5"/>
+
+  <!-- Base -->
+  <rect x="3" y="21" width="18" height="1.5" rx=".4" fill="#5a7a90"/>
+</svg>

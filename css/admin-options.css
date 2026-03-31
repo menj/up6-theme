@@ -1,0 +1,375 @@
+/**
+ * UP6 Theme Options — Admin Stylesheet
+ *
+ * Styles the tabbed settings page at Appearance → Theme Options.
+ * Modernist, minimalist design with the UP6 colour palette.
+ * Also used for meta box styling on post edit screens (subtitle, pin, template).
+ *
+ * Font note: DM Sans is self-hosted via css/fonts.css on the front-end.
+ * In wp-admin, the font is not enqueued — we use the system font stack
+ * with DM Sans as a preferred face (available if the user has visited
+ * the front-end in the same session and the font is cached).
+ *
+ * @package UP6
+ * @since   2.3.0
+ */
+
+/* --- Variables --- */
+:root {
+    --up6a-deep:   #1B3C53;
+    --up6a-mid:    #2E5871;
+    --up6a-red:    #C0392B;
+    --up6a-red-dk: #a8302a;
+    --up6a-beige:  #C4B5A5;
+    --up6a-bg:     #F4F2EF;
+    --up6a-white:  #ffffff;
+    --up6a-border: #e2e0dc;
+    --up6a-sans:   'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* --- Wrap --- */
+.up6-options-wrap {
+    max-width: 780px;
+    margin: 20px auto 40px;
+    font-family: var(--up6a-sans);
+}
+
+/* --- Header --- */
+.up6-options-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 1.25rem;
+    border-bottom: 2px solid var(--up6a-deep);
+    margin-bottom: 1.5rem;
+}
+.up6-options-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+}
+.up6-options-dot {
+    display: inline-block;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-radius: 50%;
+    background: var(--up6a-red);
+    flex-shrink: 0;
+}
+.up6-options-header h1 {
+    font-family: 'DM Sans', var(--up6a-sans);
+    font-size: 1.35rem;
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: var(--up6a-deep);
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+.up6-options-version {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--up6a-beige);
+    letter-spacing: 0.04em;
+}
+
+/* --- Notice --- */
+.up6-notice {
+    padding: 0.75rem 1rem;
+    border-radius: 0.375rem;
+    margin-bottom: 1.25rem;
+    font-size: 0.8125rem;
+    font-weight: 500;
+}
+.up6-notice p { margin: 0; }
+.up6-notice-success {
+    background: #edf7ed;
+    color: #2e6b2e;
+    border-left: 3px solid #4caf50;
+}
+
+/* --- Body card --- */
+.up6-options-body {
+    background: var(--up6a-white);
+    border: 1px solid var(--up6a-border);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+/* --- Tabs --- */
+.up6-tabs {
+    display: flex;
+    border-bottom: 1px solid var(--up6a-border);
+    background: #fafaf8;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.up6-tab {
+    flex: 0 1 auto;
+    padding: 0.9rem 1rem;
+    font-family: var(--up6a-sans);
+    font-size: 0.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #9aacb8;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    cursor: pointer;
+    transition: color 0.15s, border-color 0.15s;
+    text-align: center;
+    white-space: nowrap;
+}
+.up6-tab:hover {
+    color: var(--up6a-deep);
+}
+.up6-tab.is-active {
+    color: var(--up6a-deep);
+    border-bottom-color: var(--up6a-red);
+    background: var(--up6a-white);
+}
+
+/* --- Tab panels --- */
+.up6-tab-panel {
+    display: none;
+    padding: 1.75rem 2rem;
+}
+.up6-tab-panel.is-active {
+    display: block;
+}
+
+/* --- Fields --- */
+.up6-field {
+    margin-bottom: 1.25rem;
+}
+.up6-field:last-child { margin-bottom: 0; }
+
+.up6-field label {
+    display: block;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--up6a-deep);
+    margin-bottom: 0.375rem;
+}
+
+.up6-field input[type="text"],
+.up6-field input[type="email"],
+.up6-field input[type="url"],
+.up6-field input[type="number"],
+.up6-field textarea {
+    width: 100%;
+    padding: 0.5625rem 0.75rem;
+    font-family: var(--up6a-sans);
+    font-size: 0.8125rem;
+    color: var(--up6a-deep);
+    background: var(--up6a-white);
+    border: 1px solid var(--up6a-border);
+    border-radius: 0.375rem;
+    outline: none;
+    transition: border-color 0.15s, box-shadow 0.15s;
+    box-sizing: border-box;
+}
+.up6-field input:focus,
+.up6-field textarea:focus {
+    border-color: var(--up6a-mid);
+    box-shadow: 0 0 0 2px rgba(46,88,113,.1);
+}
+
+.up6-field input[type="number"] {
+    width: 6rem;
+}
+
+.up6-field textarea {
+    resize: vertical;
+    line-height: 1.6;
+}
+
+.up6-field-hint {
+    font-size: 0.7rem;
+    color: #999;
+    margin: 0.375rem 0 0;
+    line-height: 1.45;
+}
+
+/* --- Field row (side-by-side) --- */
+.up6-field-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+.up6-field-row .up6-field { margin-bottom: 0; }
+
+@media (max-width: 600px) {
+    .up6-field-row { grid-template-columns: 1fr; }
+}
+
+/* --- Divider --- */
+.up6-field-divider {
+    border: none;
+    border-top: 1px solid var(--up6a-border);
+    margin: 1.5rem 0;
+}
+
+/* --- Checkbox --- */
+.up6-checkbox-label {
+    display: flex !important;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--up6a-deep);
+    cursor: pointer;
+    padding-top: 0.5rem;
+}
+.up6-checkbox-label input[type="checkbox"] {
+    width: 1rem;
+    height: 1rem;
+    accent-color: var(--up6a-red);
+    cursor: pointer;
+}
+
+/* --- Footer / Save --- */
+.up6-options-footer {
+    padding: 1rem 2rem 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.up6-btn-save {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5625rem 1.5rem;
+    font-family: var(--up6a-sans);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--up6a-white);
+    background: var(--up6a-deep);
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+.up6-btn-save:hover {
+    background: var(--up6a-red);
+}
+
+/* ── Page Template Meta Box ── */
+.up6-tmpl-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin: 2px 0;
+}
+.up6-tmpl-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #1e1e1e;
+    transition: background 0.1s;
+    border: 1px solid transparent;
+    line-height: 1.4;
+}
+.up6-tmpl-option:hover {
+    background: #f0f0f0;
+}
+.up6-tmpl-option input[type="radio"] {
+    margin: 0;
+    flex-shrink: 0;
+    accent-color: #1B3C53;
+}
+.up6-tmpl-option.up6-tmpl-active {
+    background: #eef3f7;
+    border-color: #b8cdd9;
+    color: #1B3C53;
+    font-weight: 600;
+}
+.up6-tmpl-option span {
+    flex: 1;
+}
+
+/* =============================================================
+   SECURITY TAB
+   ============================================================= */
+.up6-security-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+.up6-sec-card {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    padding: 1rem 1.125rem;
+    background: #fff;
+    border: 1px solid #dcdcde;
+    border-radius: 6px;
+}
+.up6-sec-card-icon {
+    font-size: 1.75rem;
+    line-height: 1;
+    flex-shrink: 0;
+}
+.up6-sec-card-value {
+    display: block;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #1B3C53;
+    line-height: 1.2;
+}
+.up6-sec-card-label {
+    display: block;
+    font-size: .75rem;
+    color: #888;
+    line-height: 1.3;
+}
+.up6-sec-section {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+}
+.up6-sec-section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.up6-sec-section h3 {
+    font-size: .9375rem;
+    font-weight: 700;
+    color: #1B3C53;
+    margin: 0 0 .5rem;
+}
+.up6-sec-integrity {
+    padding: .75rem 1rem;
+    border-radius: 6px;
+    font-size: .875rem;
+}
+.up6-sec-integrity-ok {
+    background: #eafaf1;
+    border: 1px solid #a3d9a5;
+    color: #1e7e34;
+}
+.up6-sec-integrity-modified {
+    background: #fef8e7;
+    border: 1px solid #f5c518;
+    color: #856404;
+}
+.up6-scan-summary {
+    padding: .75rem 1rem;
+    background: #f6f7f7;
+    border: 1px solid #dcdcde;
+    border-radius: 6px;
+    font-size: .875rem;
+    line-height: 1.6;
+}

@@ -1,0 +1,89 @@
+/**
+ * UP6 Self-Hosted Fonts
+ *
+ * DM Sans (400, 500, 700, 900 normal; 900 italic)
+ * Source Serif 4 (400, 600, 700 normal; 400, 600 italic)
+ *
+ * Download WOFF2 files from:
+ *   https://fonts.google.com/download?family=DM+Sans
+ *   https://fonts.google.com/download?family=Source+Serif+4
+ *
+ * Place in /fonts/ directory with filenames matching below.
+ *
+ * @package UP6
+ * @since   2.8
+ */
+
+/* DM Sans */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/dm-sans-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/dm-sans-500.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/dm-sans-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('../fonts/dm-sans-900.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url('../fonts/dm-sans-900i.woff2') format('woff2');
+}
+
+/* Source Serif 4 */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/source-serif-4-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/source-serif-4-600.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/source-serif-4-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/source-serif-4-400i.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/source-serif-4-600i.woff2') format('woff2');
+}
