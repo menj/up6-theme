@@ -1,0 +1,68 @@
+/*
+ * UP6 — Right-to-Left Language Support
+ *
+ * Loaded automatically by WordPress when the site language is
+ * a RTL language (e.g. Arabic, Jawi). Mirrors horizontal layout:
+ * header, breadcrumbs, section headers, cards, entry content,
+ * navigation, footer, comments, sidebar, and search widgets.
+ *
+ * Currently minimal — only relevant if Arabic/Jawi content is planned.
+ * UP6's primary language (Bahasa Melayu) is LTR and does not trigger this file.
+ *
+ * @package UP6
+ * @since   2.1.0
+ */
+
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+/* Header */
+.header-search { margin-left: 0; margin-right: auto; }
+.site-branding { flex-direction: row-reverse; }
+.menu-toggle { order: 1; }
+
+/* Breadcrumb */
+.breadcrumb { direction: rtl; }
+.breadcrumb-sep { transform: scaleX(-1); }
+
+/* Section headers */
+.section-header { flex-direction: row-reverse; }
+.section-header-label { flex-direction: row-reverse; }
+
+/* Cards */
+.card-kicker { flex-direction: row-reverse; }
+.featured-panel-item { flex-direction: row-reverse; }
+.featured-panel-kicker { flex-direction: row-reverse; }
+.recent-item { flex-direction: row-reverse; }
+
+/* Entry */
+.entry-excerpt { border-left: none; border-right: 4px solid var(--up6-red); padding-left: 0; padding-right: 1.25rem; }
+.entry-content blockquote { border-left: none; border-right: 4px solid var(--up6-red); }
+.entry-meta-bar { flex-direction: row-reverse; }
+.entry-author-info { flex-direction: row-reverse; }
+.entry-tags { flex-direction: row-reverse; }
+
+/* Navigation */
+.post-navigation { direction: rtl; }
+
+/* Utility nav */
+.utility-nav a,
+.utility-nav li a { margin-right: 0; margin-left: 1.25rem; }
+
+/* Footer */
+.footer-bar-inner { flex-direction: row-reverse; }
+.footer-nav { flex-direction: row-reverse; }
+.footer-social { flex-direction: row-reverse; }
+
+/* Comments */
+.comment-list .children { padding-left: 0; padding-right: 2rem; }
+
+/* Sidebar widget title bar */
+.widget-title { flex-direction: row-reverse; }
+.featured-panel-header { flex-direction: row-reverse; }
+
+/* Sidebar search */
+.widget_search .search-field { border-right: 1px solid var(--up6-border); border-left: none; border-radius: 0 0.5rem 0.5rem 0; }
+.widget_search .search-submit { border-radius: 0.5rem 0 0 0.5rem; }
